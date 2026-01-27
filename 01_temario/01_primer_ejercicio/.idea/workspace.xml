@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0c8d987-fed4-4bfb-8e23-5141aca10872" name="Changes" comment="" />
+    <list default="true" id="b4f69b93-145a-4836-8c94-7c90b76cfec7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="38ey9QE4TNU13r6riykNnNmi7pU" />
+  <component name="ProjectId" id="38ngbnWifgiEgGSCOmppBDCGnrm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Car.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/stephantrf/Desktop/Desarrollo/workspaces/JAVA-workspace/02_primeros_pasos/15_variables_constantes/src/Main.java",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/stephantrf/Desktop/Desarrollo/workspaces/JAVA-workspace/temario/01_primer_ejercicio/src/Main.java",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
@@ -35,7 +37,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e0c8d987-fed4-4bfb-8e23-5141aca10872" name="Changes" comment="" />
+      <changelist id="b4f69b93-145a-4836-8c94-7c90b76cfec7" name="Changes" comment="" />
       <created>1769077322288</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
