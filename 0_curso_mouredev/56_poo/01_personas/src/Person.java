@@ -1,5 +1,4 @@
-public class Person
-{
+public class Person {
     // Atributos
     String name;
     int age;
@@ -8,13 +7,12 @@ public class Person
     public Person(String name, int age)
     {
         this.name = name;
-        this.age  = age;
+        this.age = age;
     }
 
     // Metodos
     public void sayHello()
     {
-        System.out.println("Hola, soy " + name + 
-            " y tengo " + age + " años.");
+        System.out.println("Hola, soy " + name + " y tengo " + age + " años.");
     }
 }
