@@ -1,11 +1,11 @@
-// Atributos
+    // Atributos
 
-// Constructores
+    // Constructores
 
-// Getters
+    // Getters
 
-// Setters
+    // Setters
 
-// Métodos públicos
+    // Métodos públicos
 
-// Métodos privados
+    // Métodos privados
