@@ -4,48 +4,63 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        // 1. Crea una clase Person con atributos privados name y age. 
-        // Usa los métodos getName(), setName(), getAge() y setAge() 
+        // 1. Crea una clase Person con atributos privados name y age.
+        // Usa los métodos getName(), setName(), getAge() y setAge()
         // para asignar y mostrar valores desde otra clase.
+        Person miPerson = new Person();
 
-        // 2. Crea una clase Product con el atributo privado price. 
-        // Añade el método setPrice(double price) 
+        // 2. Crea una clase Product con el atributo privado price.
+        // Añade el método setPrice(double price)
         // que solo permita precios mayores a 0.
+        Product miProduct = new Product();
 
-        // 3. Crea una clase BankAccount con el atributo privado balance. 
-        // Implementa los métodos deposit(double amount) y withdraw(double amount) 
+        // 3. Crea una clase BankAccount con el atributo privado balance.
+        // Implementa los métodos deposit(double amount) y withdraw(double amount)
         // que validen las cantidades correctamente.
+        BankAccount miBankAccount = new BankAccount();
 
-        // 4. Crea una clase Book con el atributo privado title. 
-        // Permite leerlo con el método getTitle() 
-        // pero no modificarlo (sin setTitle()). 
+        // 4. Crea una clase Book con el atributo privado title.
+        // Permite leerlo con el método getTitle()
+        // pero no modificarlo (sin setTitle()).
         // El título debe asignarse solo por el constructor.
+        Book miBook = new Book();
 
-        // 5. Crea una clase Temperature con el atributo privado celsius. 
-        // El método setCelsius(double celsius) 
+        // 5. Crea una clase Temperature con el atributo privado celsius.
+        // El método setCelsius(double celsius)
         // solo debe aceptar valores entre -100 y 100.
+        Temperature miTemperature = new Temperature();
 
-        // 6. Crea una clase User con los atributos privados username y password. 
-        // Implementa los métodos 
-        // setUsername(String username), setPassword(String password) 
+        // 6. Crea una clase User con los atributos privados username y password.
+        // Implementa los métodos
+        // setUsername(String username), setPassword(String password)
         // y checkPassword(String inputPassword) que compare contraseñas.
+        User miUser = new User();
 
-        // 7. Crea una clase Employee con el atributo privado salary. 
-        // Agrega el método raiseSalary(double percent) 
+        // 7. Crea una clase Employee con el atributo privado salary.
+        // Agrega el método raiseSalary(double percent)
         // que solo permita aumentos positivos.
+        Employee miEmployee = new Employee();
 
-        // 8. Crea una clase Rectangle con los atributos privados width y height. 
-        // Agrega setters y el método calculateArea() 
+        // 8. Crea una clase Rectangle con los atributos privados width y height.
+        // Agrega setters y el método calculateArea()
         // que devuelva el resultado de width * height.
+        Rectangle miRectangle = new Rectangle();
 
-        // 9. Crea una clase Student con el atributo privado grade. 
-        // Agrega los métodos setGrade(int grade) y isPassed() 
+        // 9. Crea una clase Student con el atributo privado grade.
+        // Agrega los métodos setGrade(int grade) y isPassed()
         // que retorne true si la nota es mayor o igual a 60.
+        Student miStudent = new Student();
 
-        // 10. Crea una clase Car con el atributo privado speed. 
-        // Agrega los métodos accelerate(int amount) 
-        // que aumente la velocidad (máximo 120) 
+        // 10. Crea una clase Car con el atributo privado speed.
+        // Agrega los métodos accelerate(int amount)
+        // que aumente la velocidad (máximo 120)
         // y brake(int amount) que reduzca la velocidad (mínimo 0).
+        Car miCar = new Car();
+        miCar.accelerate(20);
+        miCar.accelerate(20);
+        miCar.accelerate(20);
+        miCar.brake(20);
+        System.out.println("Tu velocidad final es: " + miCar.getSpeed());
 
         System.out.println("\n_______________________END\n");
     }
