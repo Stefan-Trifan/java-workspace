@@ -1,4 +1,4 @@
-# JAVA-WORKBENCH
+# JAVA-WORKSPACE
 
 Este repositorio recoge **todo el trabajo, temario y ejercicios** realizados en **JAVA** durante el segundo curso del grado en Ingeniería del Software.
 
