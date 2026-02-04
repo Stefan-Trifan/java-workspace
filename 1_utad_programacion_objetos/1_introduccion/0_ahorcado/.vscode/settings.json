@@ -7,4 +7,5 @@
     "java.format.settings.url": ".settings/eclipse-formatter.xml",
     "editor.formatOnSave": true,
     "chatgpt.commentCodeLensEnabled": false,
+    "java.debug.settings.onBuildFailureProceed": true,
 }

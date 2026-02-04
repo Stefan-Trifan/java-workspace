@@ -5,7 +5,7 @@ public class JuegoAhorcado
     private int           numVidas;
 
     // Atributos ejecución
-    private String        palabraSecreta;
+    private String         palabraSecreta; 
     private StringBuilder palabraUsuario;
 
     // Constructores
@@ -13,7 +13,7 @@ public class JuegoAhorcado
     {
         this.palabras = palabras;
         this.numVidas = numVidas;
-        elegirPalabraSecreta();
+        inicializarPalabraSecreta();
         inicializarPalabraUsuario();
     }
 
@@ -23,26 +23,40 @@ public class JuegoAhorcado
         return this.palabraUsuario;
     }
 
+    public int getNumVidas()
+    {
+        return this.numVidas;
+    }
+
     // Setters
 
     // Métodos públicos
     public void pedirLetra(char c)
     {
-        for(int i = 0; i < palabraSecreta.length(); i++)
+        int hayLetraEncontrada = 0;
+
+        // Recorremos las letras de la palabra secreta
+        for (int i = 0; i < palabraSecreta.length(); i++)
         {
-            if(palabraSecreta.charAt(i) == c)
+            if (palabraSecreta.charAt(i) == c)
             {
                 palabraUsuario.setCharAt(i, c);
+                hayLetraEncontrada++;
             }
-            else
-            {
-                numVidas--;
-            }
+        }
+        if (hayLetraEncontrada < 1)
+        {
+            System.out.println("Letra no encontrada");
+            numVidas--;
+        }
+        else
+        {
+            System.out.println("Letra encontrada " + palabraUsuario);
         }
     }
 
     // Métodos privados
-    private void elegirPalabraSecreta()
+    private void inicializarPalabraSecreta()
     {
         int indiceAleatorio = (int) (Math.random() * palabras.length);
         palabraSecreta = palabras[indiceAleatorio];
@@ -51,9 +65,22 @@ public class JuegoAhorcado
     private void inicializarPalabraUsuario()
     {
         palabraUsuario = new StringBuilder();
-        for(int i = 0; i < palabraSecreta.length(); i++)
+        for (int i = 0; i < palabraSecreta.length(); i++)
         {
             palabraUsuario.append("_");
+        }
+    }
+
+    public int comprobarVictoria()
+    {
+        if (palabraSecreta.equals(palabraUsuario.toString()))
+        {
+            System.out.println("Enorabuena, has ganado!");
+            return 1;
+        }
+        else
+        {
+            return 0;
         }
     }
 }
