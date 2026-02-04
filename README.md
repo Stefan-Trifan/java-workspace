@@ -6,12 +6,11 @@ Incluye tanto el contenido de las asignaturas como el material adicional que he 
 
 ## Contenido del repositorio
 
-- **Temario de clase** de Programación Orientada a Obketos y Patrones de Diseño
+- **Temario de clase** de Programación Orientada a Objetos y Patrones de Diseño
 - **Ejercicios hechos en clase** 
 - **Ejercicios de refuerzo** para mejorar comprensión y soltura
-- **Proyectos evaluables** de ambas asignaturas
+- **Proyectos evaluables** 
 - **Exámenes**
-- **Ejercicios adicionales** 
 - **Curso de YouTube**:  
   *"Curso Completo de Java desde Cero para Principiantes"* de MoureDev
 - **Entorno de pruebas**
