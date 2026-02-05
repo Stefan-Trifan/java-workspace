@@ -20,7 +20,7 @@ public class Main
                 "Paco", "Pilar", "Eva", "Vanessa",
                 "Rafael", "Javier", "Samuel", "Laura"
         };
-        JuegoAhorcado miJuegoAhorcado = new JuegoAhorcado(misPalabras, 3);
+        JuegoAhorcado miJuegoAhorcado = new JuegoAhorcado(misPalabras, 10);
 
         System.out.println("Comienzo juego: " + miJuegoAhorcado.getPalabraUsuario());
 

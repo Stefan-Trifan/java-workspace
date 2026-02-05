@@ -5,7 +5,7 @@ public class JuegoAhorcado
     private int           numVidas;
 
     // Atributos ejecución
-    private String         palabraSecreta; 
+    private String        palabraSecreta;
     private StringBuilder palabraUsuario;
 
     // Constructores
