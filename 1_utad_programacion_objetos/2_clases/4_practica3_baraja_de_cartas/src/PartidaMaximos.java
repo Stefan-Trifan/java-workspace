@@ -20,6 +20,12 @@ public class PartidaMaximos
     {
         System.out.println("\n_______________________START\n");
 
+        Mazo miMazo = new Mazo();
+
+        // todo testing
+        TestMazo miTestMazo = new TestMazo();
+        miTestMazo.mostrarMazo(miMazo);
+
         System.out.println("\n_______________________END\n");
     }
 }
