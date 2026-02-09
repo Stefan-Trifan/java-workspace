@@ -3,8 +3,8 @@ public class Carta
     // _________________________________________
     // _______________________________ Atributos
 
-    public int  numero; // todo cambiar a private
-    public Palo palo;   // todo cambiar a private
+    private int  numero; 
+    private Palo palo;   
 
     // _________________________________________
     // ___________________ Constructor Principal
@@ -20,14 +20,30 @@ public class Carta
         this.palo = palo;
     }
 
-    // _________________________________________
-    // ________________ Constructores Auxiliares
+    // //_________________________________________
+    // //________________ Constructores Auxiliares
     // _________________________________________
     // _________________________________ Getters
-    // _________________________________________
-    // _________________________________ Setters
+    public int getNumero()
+    {
+        return this.numero;
+    }
+
+    public Palo getPalo()
+    {
+        return this.palo;
+    }
+
+    // //_________________________________________
+    // //_________________________________ Setters
     // _________________________________________
     // ________________________ Métodos Públicos
-    // _________________________________________
-    // ________________________ Métodos Privados
+    @Override
+    public String toString()
+    {
+        return this.numero + " " + this.palo;
+    }
+
+    // //_________________________________________
+    // //________________________ Métodos Privados
 }

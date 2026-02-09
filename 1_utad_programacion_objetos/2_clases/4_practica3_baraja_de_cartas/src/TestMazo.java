@@ -1,33 +1,69 @@
+import java.util.ArrayList;
+
 public class TestMazo
 {
     // _________________________________________
-    // _______________________________ Atributos
-    // _________________________________________
-    // ___________________ Constructor Principal
-    // _________________________________________
-    // ________________ Constructores Auxiliares
-    // _________________________________________
-    // _________________________________ Getters
-    // _________________________________________
-    // _________________________________ Setters
-    // _________________________________________
     // ________________________ Métodos Públicos
 
-    public void mostrarMazo(Mazo miMazo)
+    public static void mostrarCartasDisponibles(Mazo miMazo)
     {
-        // ┌ ─ ┬ ─ ┐ └ ─ ┴ ─ ┘
-        System.out.printf("┌────────────┬────────┬─────────┬───────────────────┐\n");
-        for (int i = 0; i <= Mazo.getMaxCartas() - 1; i++)
+        if (miMazo.numCartasDisponibles() > 0)
         {
-            Carta c = miMazo.misCartas.get(i);
-            System.out.printf(
-                "│ Carta i %2d │ num %2d │ %-7s │ posicionEnMazo %2d │\n",
-                i, c.numero, c.palo, i + 1);
+            // @formatter:off ┌ ─ ┬ ─ ┐ └ ─ ┴ ─ ┘
+            System.out.print(
+            "┌───────────────────────────────────────────────────┐\n" +
+            "│                    Mazo Actual                    │\n" +
+            "├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤\n"); 
+            for (int i = 0; i <= miMazo.numCartasDisponibles() - 1; i++)
+            {
+                imprimirFila(i, miMazo.getCartaDisponible(i));
+            }
+            System.out.print(
+            "└────────────┴────────┴─────────┴───────────────────┘\n");
         }
-
-        System.out.printf("└────────────┴────────┴─────────┴───────────────────┘\n");
+        else
+        {
+            System.out.print(
+                "┌───────────────────────────────────────────────────┐\n" +
+                "│                El mazo está vacío                 │\n" +
+                "└───────────────────────────────────────────────────┘\n");
+        }
     }
 
-    // _________________________________________
-    // ________________________ Métodos Privados
+    public static void mostrarCartasDadas(Mazo miMazo)
+    {
+        if (miMazo.numCartasDadas() > 0)
+        {
+            System.out.print(
+            "┌───────────────────────────────────────────────────┐\n" +
+            "│             Cartas que ya han salido              │\n" +
+            "├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤\n"); 
+            for (int i = 0; i <= miMazo.numCartasDadas() - 1; i++)
+            {
+                imprimirFila(i, miMazo.getCartaDada(i));
+            }
+            System.out.print("└────────────┴────────┴─────────┴───────────────────┘\n");
+        }
+        else
+        {
+            System.out.print(
+            "┌───────────────────────────────────────────────────┐\n" +
+            "│           No han salido cartas todavía            │\n" +
+            "└───────────────────────────────────────────────────┘\n");
+            // @formatter:on
+        }
+    }
+
+    public static void imprimirFila(int i, Carta c)
+    {
+        System.out.printf(
+            "│ Carta i %2d │ num %2d │ %-7s │ posicionEnMazo %2d │\n",
+            i, c.getNumero(), c.getPalo(), i + 1);
+    }
+
+    public static void noQuedanCartas()
+    {
+        System.out.println("No quedan suficientes cartas en el mazo");
+    }
+
 }

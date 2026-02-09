@@ -22,9 +22,12 @@ public class PartidaMaximos
 
         Mazo miMazo = new Mazo();
 
-        // todo testing
-        TestMazo miTestMazo = new TestMazo();
-        miTestMazo.mostrarMazo(miMazo);
+        miMazo.barajar();
+        TestMazo.mostrarCartasDisponibles(miMazo);
+
+        miMazo.darCartas(10);
+        TestMazo.mostrarCartasDadas(miMazo);
+        TestMazo.mostrarCartasDisponibles(miMazo);
 
         System.out.println("\n_______________________END\n");
     }
