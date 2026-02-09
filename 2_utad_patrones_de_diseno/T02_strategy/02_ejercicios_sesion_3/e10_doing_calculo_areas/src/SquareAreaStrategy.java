@@ -1,7 +1,14 @@
+public class SquareAreaStrategy
+{
     // _________________________________________
     // _______________________________ Atributos
+    private double lado;
     // _________________________________________
     // ___________________ Constructor Principal
+    public SquareAreaStrategy(double lado)
+    {
+        this.lado = lado;
+    }
     // _________________________________________
     // ________________ Constructores Auxiliares
     // _________________________________________
@@ -12,3 +19,4 @@
     // ________________________ Métodos Públicos
     // _________________________________________
     // ________________________ Métodos Privados 
+}
