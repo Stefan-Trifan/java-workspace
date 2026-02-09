@@ -1,33 +1,25 @@
-public class Square implements GeometricArea
+public class CircleAreaStrategy implements AreaStrategy
 {
     // _________________________________________
     // _______________________________ Atributos
-    private double side;
-    private double area;
+    private double radio;
     // _________________________________________
     // ___________________ Constructor Principal
-    public Square(Double side)
+    public CircleAreaStrategy(double radio)
     {
-        this.side = side;
-        this.area = 0;
+        this.radio = radio;
     }
     // _________________________________________
     // ________________ Constructores Auxiliares
-    public Square()
+    public CircleAreaStrategy()
     {
         this(0.0);
     }
-    // _________________________________________
-    // _________________________________ Getters
-    // _________________________________________
     // _________________________________ Setters
     // _________________________________________
     // ________________________ Métodos Públicos
-    public Double getArea()
+    public double calcArea()
     {
-        return null;
+        return Math.PI * Math.pow(radio, 2);
     }
-    // _________________________________________
-    // ________________________ Métodos Privados 
-    
 }
