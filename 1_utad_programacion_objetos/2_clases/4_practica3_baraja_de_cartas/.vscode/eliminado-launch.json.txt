@@ -10,19 +10,6 @@
             "request": "launch",
             "mainClass": "PartidaMaximos",
             "projectName": "4_practica3_baraja_de_cartas_801c55a3"
-        },
-        {
-            "type": "java",
-            "name": "PartidaMaximos",
-            "request": "launch",
-            "mainClass": "PartidaMaximos",
-            "projectName": "4_practica3_baraja_de_cartas"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
         }
     ]
 }

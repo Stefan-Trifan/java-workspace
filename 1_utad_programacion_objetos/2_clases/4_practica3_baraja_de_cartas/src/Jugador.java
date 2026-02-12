@@ -6,16 +6,26 @@ public class Jugador
     // _______________________________ Atributos
     private ArrayList<Carta> misCartas;  
     private String nombre;
+    private int rondasGanadas;
     // _________________________________________
     // ___________________ Constructor Principal
     public Jugador()
     {
         misCartas = new ArrayList<>();
+        rondasGanadas = 0;
     }
     // _________________________________________
     // ________________ Constructores Auxiliares
     // _________________________________________
     // _________________________________ Getters
+    public int getRondasGanadas()
+    {
+        return rondasGanadas; 
+    }
+    public String getNombre()
+    {
+        return nombre; 
+    }
     // _________________________________________
     // _________________________________ Setters
     public void setNombre(String nombre)
@@ -32,6 +42,11 @@ public class Jugador
     public Carta darCarta()
     {
         return misCartas.remove(0);
+    }
+
+    public void rondaGanada()
+    {
+        rondasGanadas++;
     }
     // _________________________________________
     // ________________________ Métodos Privados 
