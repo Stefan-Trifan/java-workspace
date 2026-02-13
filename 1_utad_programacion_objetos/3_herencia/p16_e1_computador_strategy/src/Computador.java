@@ -1,45 +1,58 @@
-public class Tablet extends Computador
+// Contexto
+
+public class Computador
 {
     // _________________________________________
     // _______________________________ Atributos
 
-    private double peso;
-    
+    private double        peso;
+    private EstrategiaFormatoPeso miEstrategia;
+
     // _________________________________________
     // ___________________ Constructor Principal
 
-    public Tablet(double peso)
+    public Computador(double peso)
     {
         this.peso = peso;
     }
-    
+
     // _________________________________________
     // ________________ Constructores Auxiliares
 
-    public Tablet()
+    public Computador()
     {
         this(0);
     }
-    
+
     // _________________________________________
     // _________________________________ Getters
 
-    public double getPeso()
+    public double getpeso()
     {
         return peso;
     }
-    
+
     // _________________________________________
     // _________________________________ Setters
 
-    public void setPeso(double peso)
+    public void setpeso(double peso)
     {
         this.peso = peso;
     }
-    
+
     // _________________________________________
     // ________________________ Métodos Públicos
 
+    public void setEstrategia(EstrategiaFormatoPeso estrategia)
+    {
+        this.miEstrategia = estrategia;
+    }
+
+    public String mostrarPeso()
+    {
+        return miEstrategia.devolverPeso(peso);
+    }
+
     // _________________________________________
-    // ________________________ Métodos Privados 
+    // ________________________ Métodos Privados
 }

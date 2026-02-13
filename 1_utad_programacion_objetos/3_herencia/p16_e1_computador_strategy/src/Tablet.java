@@ -1,34 +1,43 @@
-public class Computador
+public class Tablet extends Computador
 {
     // _________________________________________
     // _______________________________ Atributos
-    private double peso;
+
     // _________________________________________
     // ___________________ Constructor Principal
-    public Computador(double peso)
+
+    public Tablet(double peso)
     {
-        this.peso = peso;
+        super(peso);
     }
+
     // _________________________________________
     // ________________ Constructores Auxiliares
-    public Computador()
+
+    public Tablet()
     {
         this(0);
     }
+
     // _________________________________________
     // _________________________________ Getters
-    public double getpeso()
+
+    public double getpesoGramos()
     {
-        return peso;
+        return super.getpeso() * 1000;
     }
+
     // _________________________________________
     // _________________________________ Setters
-    public void setpeso(double peso)
-    {
-        this.peso = peso;
-    }
+
     // _________________________________________
     // ________________________ Métodos Públicos
+
+    public String imprimirPesos()
+    {
+        return super.getpeso() + "Kg/" + this.getpesoGramos() + "g";
+    }
+
     // _________________________________________
-    // ________________________ Métodos Privados 
+    // ________________________ Métodos Privados
 }
