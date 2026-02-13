@@ -29,28 +29,18 @@ public class Mazo
         }
     }
 
-    // //_________________________________________
-    // //________________ Constructores Auxiliares
     // _________________________________________
     // _________________________________ Getters
     
     public static int getMaxCartas()
-    {
         return MAX_CARTAS;
-    }
 
     public Carta getCartaDisponible(int i)
-    {
         return cartasDisponibles.get(i);
-    }
 
     public Carta getCartaDada(int i)
-    {
         return cartasDadas.get(i);
-    }
 
-    // //_________________________________________
-    // //_________________________________ Setters
     // _________________________________________
     // ________________________ Métodos Públicos
 
@@ -73,10 +63,7 @@ public class Mazo
     }
 
     public void barajarConShuffle()
-    {
-        // Forma 2
-        Collections.shuffle(cartasDisponibles);
-    }
+        Collections.shuffle(cartasDisponibles); // Forma 2
 
     // Devuelve la siguiente carta que está en la baraja
     // , cuando no haya más o se haya llegado al final
@@ -96,14 +83,10 @@ public class Mazo
 
     // Indica el número de cartas que aún puede repartir.
     public int numCartasDisponibles()
-    {
         return cartasDisponibles.size();
-    }
 
     public int numCartasDadas()
-    {
         return cartasDadas.size();
-    }
 
     // Dado un número de cartas que nos pidan
     // , devolveremos ese número de cartas.
@@ -125,7 +108,4 @@ public class Mazo
             return null;
         }
     }
-
-    // //_________________________________________
-    // //________________________ Métodos Privados
 }
