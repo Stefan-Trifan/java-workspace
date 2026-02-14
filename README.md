@@ -19,4 +19,4 @@ Incluye tanto el contenido de las asignaturas como el material adicional que he 
 
 Este repositorio sirve como **banco de trabajo y aprendizaje** para dominar el lenguaje Java desde los fundamentos hasta estructuras de datos más avanzadas.
 
-Es una referencia personal, pero también puede ser útil para otros estudiantes que estén empezando a programar en Java o cursando asignaturas similares.
+Es una referencia personal, pero también puede ser útil para otros estudiantes que estén empezando a programar en Java o cursando asignaturas similares. 
