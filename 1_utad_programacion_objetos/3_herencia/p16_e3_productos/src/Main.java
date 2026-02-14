@@ -38,7 +38,7 @@ public class Main
         miArr.add(misNewRock);
         miArr.add(miMacbookPro);
 
-        for (Ropa p : miArr)
+        for (Producto p : miArr)
         {
             System.out.println(p.imprimirInfo());
         }
