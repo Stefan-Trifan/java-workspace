@@ -2,7 +2,6 @@
 
 public class Calculadora
 {
-
     private Operacion operacion;
 
     public Calculadora(Operacion operacion)
