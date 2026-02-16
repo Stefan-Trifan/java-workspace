@@ -1,11 +1,24 @@
 public class Polideportivo implements InstalacionDeportiva, Edificio
 {
+    // _______________________________ Atributos
+    double superficie;
+    String tipo;
+    // ___________________ Constructor Principal
+    public Polideportivo(double superficie, String tipo)
+    {
+        this.superficie = superficie;
+        this.tipo = tipo;
+    }
+    // ________________ Constructores Auxiliares
+    // _________________________________ Getters
+    // _________________________________ Setters
+    // ________________________ Métodos Públicos
     public double getSuperficieEdificio()
     {
-        return 0.0;
+        return this.superficie;
     }
     public int getTipoDeInstalacion()
     {
-
+        return 0;
     }
 }
