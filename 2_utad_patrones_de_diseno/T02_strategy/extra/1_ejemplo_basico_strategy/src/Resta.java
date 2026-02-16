@@ -1,3 +1,5 @@
+// Estrategia concreta
+
 public class Resta implements Operacion
 {
 
