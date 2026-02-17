@@ -13,7 +13,7 @@ public class Alquiler
     // ___________________ Constructor Principal
 
     public Alquiler(
-        String nombreCliente, String dNICliente, 
+        String nombreCliente, String dNICliente,
         LocalDate fechaInicio, LocalDate fechaFin, Barco miBarco)
     {
         this.nombreCliente = nombreCliente;
