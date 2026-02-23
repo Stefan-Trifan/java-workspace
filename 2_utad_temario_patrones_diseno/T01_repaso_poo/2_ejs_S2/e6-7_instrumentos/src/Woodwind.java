@@ -1,4 +1,4 @@
-public class Wind implements Instrument
+public class Woodwind extends Wind
 {
     // _______________________________ Atributos
     // ___________________ Constructor Principal
@@ -6,13 +6,9 @@ public class Wind implements Instrument
     // _________________________________ Getters
     // _________________________________ Setters
     // ________________________ Métodos Públicos
-    public void play(Note n)
+    public void play(Note note)
     {
-
-    }
-    public String what()
-    {
-        return " ";
+        System.out.println("Wind Woodwind play " + note);
     }
     // ________________________ Métodos Privados 
 }

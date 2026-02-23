@@ -6,13 +6,13 @@ public class Percussion implements Instrument
     // _________________________________ Getters
     // _________________________________ Setters
     // ________________________ Métodos Públicos
-    public void play(Note n)
+    public void play(Note note)
     {
-
+        System.out.println("Percussion play" + note);
     }
     public String what()
     {
-        return " ";
+        return "Percussion";
     }
     // ________________________ Métodos Privados 
 }

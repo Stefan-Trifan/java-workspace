@@ -1,5 +1,5 @@
 public interface Instrument
 {
-    public void play(Note n);
+    public abstract void play(Note n);
     public String what();
 }
