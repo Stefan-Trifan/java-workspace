@@ -1,7 +1,7 @@
 package c08_oop;
 public class Classes 
 {
-    public static void main(String[] args) throws Exception 
+    public static void main(String[] args) 
     {
         System.out.println("\n_______________________START\n");
 

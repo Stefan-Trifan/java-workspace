@@ -1,14 +1,10 @@
 public class Engine
 {
-    // Atributos
-
-    // Constructores
-
-    // Getters
-
-    // Setters
-
-    // Métodos públicos
-
-    // Métodos privados
+    // _______________________________ Atributos
+    // ___________________ Constructor Principal
+    // ________________ Constructores Auxiliares
+    // _________________________________ Getters
+    // _________________________________ Setters
+    // ________________________ Métodos Públicos
+    // ________________________ Métodos Privados 
 }

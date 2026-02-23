@@ -1,6 +1,6 @@
 public class Composicion
 {
-    public static void main(String[] args) throws Exception
+    public static void main(String[] args)
     {
         // Composición ("tiene un")
 

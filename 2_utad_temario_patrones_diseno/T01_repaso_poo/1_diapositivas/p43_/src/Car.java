@@ -1,13 +1,13 @@
 public class Car
 {
-    // Atributos
-    String marca;
-    String modelo;
-    String color;
+    // _______________________________ Atributos
+    private String marca;
+    private String modelo;
+    private String color;
 
-    // Constructores
+    // ___________________ Constructor Principal
 
-    // Getters
+    // _________________________________ Getters
     public String getMarca()
     {
         return this.marca;
@@ -23,7 +23,7 @@ public class Car
         return this.color;
     }
 
-    // Setters
+    // _________________________________ Setters
     public void setMarca(String marca)
     {
         this.marca = marca;
@@ -39,7 +39,6 @@ public class Car
         this.color = color;
     }
 
-    // Métodos públicos
-
-    // Métodos privados
+    // ________________________ Métodos Públicos
+    // ________________________ Métodos Privados 
 }

@@ -12,7 +12,7 @@ import e08.*;
 
 public class Main
 {
-    public static void main(String[] args) throws Exception
+    public static void main(String[] args)
     {
         System.out.println("\n_______________________START\n");
         // 1. Crea una clase Animal con el método makeSound().
