@@ -5,7 +5,7 @@ public class MusicTest
     {
         System.out.println("\n_______________________START\n");
         
-        Instrument[] orchestra = {new Wind()};
+        Instrument[] orchestra = {new Wind(), new Wind()};
         tuneAll(orchestra);
         
         System.out.println("\n_______________________END\n");
@@ -16,7 +16,6 @@ public class MusicTest
     {
         instrument.play(Note.DO); // Delegación
     }
-
     static void tuneAll(Instrument[] instruments)
     {
         for (Instrument i : instruments)
@@ -24,4 +23,5 @@ public class MusicTest
             tune(i);
         }
     }
+
 }
