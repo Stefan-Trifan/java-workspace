@@ -5,7 +5,7 @@ public class MusicTest
     {
         System.out.println("\n_______________________START\n");
         
-        Instrument[] orchestra = {new Wind(), new Wind()};
+        Instrument[] orchestra = {new Wind(), new Brass()};
         tuneAll(orchestra);
         
         System.out.println("\n_______________________END\n");
