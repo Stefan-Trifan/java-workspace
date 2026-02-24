@@ -1,6 +1,5 @@
-public class CapTextFormatter implements TextFormatter
+public class CapTextFormatter implements TextFormatterStrategy
 {
-
     @Override
     public void format(String text)
     {

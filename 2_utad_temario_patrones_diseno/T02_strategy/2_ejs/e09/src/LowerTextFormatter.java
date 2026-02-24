@@ -1,6 +1,5 @@
-public class LowerTextFormatter implements TextFormatter
+public class LowerTextFormatter implements TextFormatterStrategy
 {
-
     @Override
     public void format(String text)
     {

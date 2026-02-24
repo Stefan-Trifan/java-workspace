@@ -1,6 +1,5 @@
 public class TextEditor
 {
-
     private TextFormatter textFormatter;
 
     public TextEditor(TextFormatter textFormatter)
@@ -8,7 +7,7 @@ public class TextEditor
         this.textFormatter = textFormatter;
     }
 
-    public void format(String text)
+    public void fmt(String text)
     {
         textFormatter.format(text);
     }
