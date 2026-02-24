@@ -1,5 +1,7 @@
 // Estrategia concreta
 
+// Define una implementación a un algoritmo mediante la interfaz de Estrategia
+
 public class Resta implements Operacion
 {
 
