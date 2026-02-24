@@ -2,6 +2,8 @@ public class Main
 {
     public static void main(String[] args)
     {
+        System.out.println("\n_______________________START\n");
+
         TextFormatterStrategy capTextFormatterStrategy = new CapTextFormatter();
         TextFormatterStrategy lowerTextFormatterStrategy = new LowerTextFormatter();
 
@@ -18,5 +20,7 @@ public class Main
 
         // todo Realiza el cambio para aplicar la estrategia CamelText
         editor.format("Testing text in camel formatter");
+
+        System.out.println("\n_______________________END\n");
     }
 }
