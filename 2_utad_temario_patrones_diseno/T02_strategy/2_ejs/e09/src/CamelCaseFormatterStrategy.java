@@ -8,21 +8,18 @@ public class CamelCaseFormatterStrategy implements TextFormatterStrategy
         String[] words = text.split(" ");
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < words.length; i++)
+
+        int i = 0;
+        result.append(words[i]);
+
+        for (i = 1; i < words.length; i++)
         {
-            if (i == 0)
-            {
-                result.append(words[i]);
-            }
-            else
-            {
-                result.append(
-                    words[i].substring(0, 1).toUpperCase()
-                    + words[i].substring(1));
-            }
+            result.append(
+                words[i].substring(0, 1).toUpperCase()
+                + words[i].substring(1));
         }
 
-        System.out.println(result.toString());
+        System.out.println("[CamelCaseFormatterStrategy]: " + result.toString());
     }
 
     public static void main(String[] args)
