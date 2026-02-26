@@ -1,8 +1,7 @@
 public class Stringed implements Instrument, ElectricSound
 {
     // _______________________________ Atributos
-    // ___________________ Constructor Principal
-    // ________________ Constructores Auxiliares
+    // ___________________________ Constructores
     // _________________________________ Getters
     // _________________________________ Setters
     // ________________________ Métodos Públicos

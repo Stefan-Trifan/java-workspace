@@ -1,8 +1,7 @@
 public class Woodwind extends Wind
 {
     // _______________________________ Atributos
-    // ___________________ Constructor Principal
-    // ________________ Constructores Auxiliares
+    // ___________________________ Constructores
     // _________________________________ Getters
     // _________________________________ Setters
     // ________________________ Métodos Públicos

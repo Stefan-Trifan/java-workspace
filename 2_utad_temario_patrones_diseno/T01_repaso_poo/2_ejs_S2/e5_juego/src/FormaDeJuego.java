@@ -2,8 +2,7 @@ public class FormaDeJuego
 {
     // _______________________________ Atributos
     
-    // ___________________ Constructor Principal
-    // ________________ Constructores Auxiliares
+    // ___________________________ Constructores
     // _________________________________ Getters
     // _________________________________ Setters
     // ________________________ Métodos Públicos
