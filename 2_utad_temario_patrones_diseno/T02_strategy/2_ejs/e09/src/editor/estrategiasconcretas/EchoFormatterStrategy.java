@@ -1,3 +1,7 @@
+package editor.estrategiasconcretas;
+
+import editor.TextFormatterStrategy;
+
 public class EchoFormatterStrategy implements TextFormatterStrategy
 {
     // ________________________ Métodos Públicos

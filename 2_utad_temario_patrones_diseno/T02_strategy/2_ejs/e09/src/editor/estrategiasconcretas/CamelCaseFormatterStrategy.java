@@ -1,3 +1,7 @@
+package editor.estrategiasconcretas;
+
+import editor.TextFormatterStrategy;
+
 public class CamelCaseFormatterStrategy implements TextFormatterStrategy
 {
     // ________________________ Métodos Públicos

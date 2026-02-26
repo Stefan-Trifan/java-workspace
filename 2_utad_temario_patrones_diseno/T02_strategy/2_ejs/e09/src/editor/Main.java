@@ -1,3 +1,9 @@
+package editor;
+import editor.estrategiasconcretas.CamelCaseFormatterStrategy;
+import editor.estrategiasconcretas.CapTextFormatter;
+import editor.estrategiasconcretas.EchoFormatterStrategy;
+import editor.estrategiasconcretas.LowerTextFormatter;
+
 public class Main
 {
     public static void main(String[] args)

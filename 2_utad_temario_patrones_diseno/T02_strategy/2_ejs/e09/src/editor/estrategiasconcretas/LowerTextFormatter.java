@@ -1,3 +1,7 @@
+package editor.estrategiasconcretas;
+
+import editor.TextFormatterStrategy;
+
 public class LowerTextFormatter implements TextFormatterStrategy
 {
     // ________________________ Métodos Públicos

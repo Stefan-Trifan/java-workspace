@@ -1,4 +1,7 @@
+package editor;
 // Contexto
+
+import editor.estrategiasconcretas.EchoFormatterStrategy;
 
 public class TextEditorContext
 {
