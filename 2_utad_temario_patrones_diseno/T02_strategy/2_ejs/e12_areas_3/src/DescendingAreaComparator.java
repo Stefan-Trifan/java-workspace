@@ -1,23 +1,13 @@
-public class Context
+//
+
+import java.util.Comparator;
+
+public class DescendingAreaComparator
 {
     // _______________________________ Atributos
-    Strategy mStrategy;>0
     // ___________________________ Constructores
-    public Context(Strategy mStrategy)
-    {
-        this.mStrategy = mStrategy;
-    }
     // _________________________________ Getters
     // _________________________________ Setters
     // ________________________ Métodos Públicos
-    public double getArea()
-    {
-        return mStrategy.getArea();
-    }
-    public String toString()
-    {
-        return mStrategy.toString();
-    }
     // ________________________ Métodos Privados
-
 }
