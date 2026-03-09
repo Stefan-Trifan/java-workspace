@@ -22,12 +22,13 @@ public abstract class ProcesadorArchivo
     {
         System.out.println("Abriendo archivo...");
     }
+    
+    // PASO ABSTRACTO
+    protected abstract void procesarContenido();
 
     private void cerrarArchivo()
     {
         System.out.println("Cerrando archivo...");
     }
 
-    // PASO ABSTRACTO
-    protected abstract void procesarContenido();
 }
