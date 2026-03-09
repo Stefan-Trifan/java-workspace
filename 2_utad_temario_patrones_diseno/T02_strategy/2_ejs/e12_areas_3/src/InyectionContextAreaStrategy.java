@@ -16,8 +16,6 @@ public class InyectionContextAreaStrategy extends ContextAreaStrategy
         this.geometricAreaList = geometricAreaList;
     }
 
-    // _________________________________ Getters
-    // _________________________________ Setters
     // ________________________ Métodos Públicos
     public static double getRandomDoubleBetweenRange(double min, double max)
     {
@@ -26,6 +24,14 @@ public class InyectionContextAreaStrategy extends ContextAreaStrategy
 
     public void sort(Comparator<GeometricArea> comparator)
     {
+        geometricAreaList.sort(comparator);
+    }
 
+    public void print()
+    {
+        for (GeometricArea geometricArea : geometricAreaList)
+        {
+            System.out.println(geometricArea.toString());
+        }
     }
 }
