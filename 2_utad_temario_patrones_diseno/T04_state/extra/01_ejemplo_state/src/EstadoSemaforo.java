@@ -1,3 +1,8 @@
+public interface EstadoSemaforo
+{
+    void cambiar(Semaforo semaforo);
+}
+
 /* Rol: State (la abstracción)
 
 Es el contrato común que todos los estados deben cumplir.
@@ -9,9 +14,3 @@ Define:
 No tiene lógica.
 No sabe qué estado es.
 Solo define el comportamiento común. */
-
-
-public interface EstadoSemaforo
-{
-    void cambiar(Semaforo semaforo);
-}       

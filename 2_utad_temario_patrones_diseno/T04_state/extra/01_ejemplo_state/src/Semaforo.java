@@ -1,10 +1,4 @@
-/* Rol: Context
-
-Es el objeto principal del sistema.
-	•	Contiene el estado actual.
-	•	Delegará el comportamiento al estado.
-	•	No tiene condicionales.
-	•	No sabe qué transición ocurre. */
+// Rol: Context
 
 public class Semaforo
 {
@@ -25,3 +19,10 @@ public class Semaforo
         estado.cambiar(this);
     }
 }
+
+/*
+Es el objeto principal del sistema.
+    •	Contiene el estado actual.
+    •	Delegará el comportamiento al estado.
+    •	No tiene condicionales.
+    •	No sabe qué transición ocurre. */

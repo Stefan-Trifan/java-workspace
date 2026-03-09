@@ -1,19 +1,3 @@
-/* Rol: Concrete State
-
-Cada uno representa:
-	•	Un estado concreto
-	•	Un comportamiento específico
-	•	Una transición concreta
-
-Por ejemplo:
-	•	Rojo → decide que el siguiente estado es Verde
-	•	Verde → decide que el siguiente es Amarillo
-	•	Amarillo → decide que el siguiente es Rojo
-
-Clave:
-Cada estado conoce la transición.
-El contexto no. */
-
 public class Rojo implements EstadoSemaforo
 {
     @Override
@@ -23,3 +7,19 @@ public class Rojo implements EstadoSemaforo
         semaforo.setEstado(new Verde());
     }
 }
+
+/* Rol: Concrete State
+
+Cada uno representa:
+    •	Un estado concreto
+    •	Un comportamiento específico
+    •	Una transición concreta
+
+Por ejemplo:
+    •	Rojo → decide que el siguiente estado es Verde
+    •	Verde → decide que el siguiente es Amarillo
+    •	Amarillo → decide que el siguiente es Rojo
+
+Clave:
+Cada estado conoce la transición.
+El contexto no. */
