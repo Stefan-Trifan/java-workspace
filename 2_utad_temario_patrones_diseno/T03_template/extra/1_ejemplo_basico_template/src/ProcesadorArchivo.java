@@ -10,25 +10,26 @@
 
 public abstract class ProcesadorArchivo
 {
+    // ___________________________ Constructores
     // TEMPLATE METHOD
-    public final void procesar()   
+    public final void procesar()
     {
         abrirArchivo();
         procesarContenido(); // paso variable
         cerrarArchivo();
     }
 
+    // ________________________ Métodos Privados
     private void abrirArchivo()
     {
-        System.out.println("Abriendo archivo...");
+        System.out.println("Abriendo elemento...");
     }
-    
+
     // PASO ABSTRACTO
     protected abstract void procesarContenido();
 
     private void cerrarArchivo()
     {
-        System.out.println("Cerrando archivo...");
+        System.out.println("Cerrando elemento...");
     }
-
 }
