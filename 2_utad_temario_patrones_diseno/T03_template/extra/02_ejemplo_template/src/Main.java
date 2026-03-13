@@ -16,8 +16,6 @@ public class Main
         miCSVEstadistico.procesar();
         System.out.println();
 
-
-
         System.out.println("\n_______________________END\n");
     }
 }
