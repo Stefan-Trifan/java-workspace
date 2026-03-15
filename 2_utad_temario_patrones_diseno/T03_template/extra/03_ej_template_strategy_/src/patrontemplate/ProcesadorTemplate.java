@@ -1,3 +1,4 @@
+package patrontemplate;
 public abstract class ProcesadorTemplate
 {
     // _______________________________ Atributos
@@ -8,24 +9,24 @@ public abstract class ProcesadorTemplate
     public final void procesar()
     {
         abrir();
-        leer();          // Subclase
-        procesarDatos(); // Subclase
+        leer();          // Subclase. depende del tipo de archivo
+        procesarDatos(); // Subclase. delegará en Strategy
         cerrar();
     }
 
     private void abrir()
     {
-        System.out.println("- Padre: Abrir elemento...");
+        System.out.println("- Abrir elemento...");
     }
 
     private void cerrar()
     {
-        System.out.println("- Padre: Cerrando elemento...");
+        System.out.println("- Cerrando elemento...");
     }
 
     public String toString()
     {
-        return "- Padre: Procesador Template";
+        return "- Procesador Template";
     }
 
     protected abstract void leer();
