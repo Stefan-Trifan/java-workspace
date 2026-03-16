@@ -31,7 +31,7 @@ public abstract class ComputerBuilder
         return "Preparando placa base por defecto...";
     }
 
-    protected abstract String addProcesador(); 
+    protected abstract String addProcesador();
 
     protected abstract String addRAM();
 
