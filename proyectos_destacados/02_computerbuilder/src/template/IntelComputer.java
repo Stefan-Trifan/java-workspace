@@ -1,0 +1,46 @@
+package template;
+
+import enums.IntelProcessor;
+import strategy.ComputerConfigurationStrategy;
+
+public class IntelComputer extends ComputerBuilder
+{
+    // _______________________________ Atributos
+    private IntelProcessor procesador;
+
+    // ___________________________ Constructores
+    public IntelComputer(
+        ComputerConfigurationStrategy myStrategy,
+        IntelProcessor procesador)
+    {
+        super(myStrategy);
+        this.procesador = procesador;
+    }
+
+    // ________________________ Métodos Públicos
+    protected String addProcesador()
+    {
+        return "- Intel: Preparando Procesador "
+            + procesador
+            + " ...";
+    }
+
+    protected String addRAM()
+    {
+        return "- Intel: Preparando "
+            + myStrategy.getRAM()
+            + " GB de RAM ...";
+    }
+
+    protected String addAlmacenamiento()
+    {
+        return "- Intel: Preparando "
+            + myStrategy.getAlmacenamiento()
+            + " GB de HDD...";
+    }
+
+    protected String verificarEnsamblado()
+    {
+        return "Listo Intel " + myStrategy.toString();
+    }
+}
