@@ -1,4 +1,5 @@
-public class AppleComputer extends ComputerBuilder
+package patron_template;
+public class IntelComputer extends ComputerBuilder
 {
     // _______________________________ Atributos
     private String procesador;
@@ -6,7 +7,7 @@ public class AppleComputer extends ComputerBuilder
     private int    almacenamiento;
 
     // ___________________________ Constructores
-    public AppleComputer(String procesador, int ram, int almacenamiento)
+    public IntelComputer(String procesador, int ram, int almacenamiento)
     {
         this.procesador = procesador;
         this.ram = ram;
@@ -18,17 +19,17 @@ public class AppleComputer extends ComputerBuilder
     // ________________________ Métodos Públicos
     protected void addProcesador()
     {
-        System.out.println("- Apple: Preparando Procesador " + procesador + " ...");
+        System.out.println("- Intel: Preparando Procesador " + procesador + " ...");
     }
 
     protected void addRAM()
     {
-        System.out.println("- Apple: Preparando " + ram + " GB de RAM DDR4...");
+        System.out.println("- Intel: Preparando " + ram + " GB de RAM ...");
     }
 
     protected void addAlmacenamiento()
     {
-        System.out.println("- Apple: Preparando " + almacenamiento + " GB de HDD...");
+        System.out.println("- Intel: Preparando " + almacenamiento + " GB de HDD...");
     }
     // ________________________ Métodos Privados
 }
