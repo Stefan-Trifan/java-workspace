@@ -5,7 +5,7 @@ package patron_template_strategy;
 
 public abstract class ComputerBuilder
 {
-    public ComputerConfigurationStrategy myStrategy;
+    protected ComputerConfigurationStrategy myStrategy;
 
     public ComputerBuilder(ComputerConfigurationStrategy myStrategy)
     {
@@ -13,37 +13,37 @@ public abstract class ComputerBuilder
     }
 
     // ________________________ Métodos Públicos
-    public final void buildComputer()
+    public final String buildComputer()
     {
-        prepararPlacaBase();
-        addProcesador(); // Subclass (Depende de aquitecturta)
-        addRAM(); // Strategy (Depende de la estrategia)
-        addAlmacenamiento(); // Strategy
-        addTarjetaGrafica();
-        addFuenteDeAlimentacion();
-        verificarEnsamblado(); // Subclass
+        return prepararPlacaBase() + "\n"
+            + addProcesador() + "\n"
+            + addRAM() + "\n"
+            + addAlmacenamiento() + "\n"
+            + addTarjetaGrafica() + "\n"
+            + addFuenteDeAlimentacion() + "\n"
+            + verificarEnsamblado() + "\n";
     }
 
-    private void prepararPlacaBase()
+    private String prepararPlacaBase()
     {
-        System.out.println("Preparando placa base por defecto...");
+        return "Preparando placa base por defecto...";
     }
 
-    protected abstract void addProcesador();
+    protected abstract String addProcesador();
 
-    protected abstract void addRAM();
+    protected abstract String addRAM();
 
-    protected abstract void addAlmacenamiento();
+    protected abstract String addAlmacenamiento();
 
-    private void addTarjetaGrafica()
+    private String addTarjetaGrafica()
     {
-        System.out.println("Preparando tarjeta grafica por defecto...");
+        return "Preparando tarjeta grafica por defecto...";
     }
 
-    private void addFuenteDeAlimentacion()
+    private String addFuenteDeAlimentacion()
     {
-        System.out.println("Preparando placa base por defecto...");
+        return "Preparando placa base por defecto...";
     }
 
-    protected abstract void verificarEnsamblado();
+    protected abstract String verificarEnsamblado();
 }

@@ -1,4 +1,5 @@
 package patron_template_strategy;
+
 public class AMDComputer extends ComputerBuilder
 {
     // _______________________________ Atributos
@@ -14,32 +15,29 @@ public class AMDComputer extends ComputerBuilder
     }
 
     // ________________________ Métodos Públicos
-    protected void addProcesador()
+    protected String addProcesador()
     {
-        System.out.println(
-            "- AMD: Preparando Procesador "
-                + procesador
-                + " ...");
+        return "- AMD: Preparando Procesador "
+            + procesador
+            + " ...";
     }
 
-    protected void addRAM()
+    protected String addRAM()
     {
-        System.out.println(
-            "- AMD: Preparando "
-                + myStrategy.getRAM()
-                + " GB de RAM ...");
+        return "- AMD: Preparando "
+            + myStrategy.getRAM()
+            + " GB de RAM ...";
     }
 
-    protected void addAlmacenamiento()
+    protected String addAlmacenamiento()
     {
-        System.out.println(
-            "- AMD: Preparando "
-                + myStrategy.getAlmacenamiento()
-                + " GB de HDD...");
+        return "- AMD: Preparando "
+            + myStrategy.getAlmacenamiento()
+            + " GB de HDD...";
     }
 
-    protected void verificarEnsamblado()
+    protected String verificarEnsamblado()
     {
-        System.out.println("Listo AMD " + myStrategy.toString());
+        return "Listo AMD " + myStrategy.toString();
     }
 }

@@ -15,36 +15,29 @@ public class IntelComputer extends ComputerBuilder
     }
 
     // ________________________ Métodos Públicos
-    protected void addProcesador()
+    protected String addProcesador()
     {
-        System.out.println(
-            "- Intel: Preparando Procesador "
-                + procesador
-                + " ...");
+        return "- Intel: Preparando Procesador "
+            + procesador
+            + " ...";
     }
 
-    protected void addRAM()
+    protected String addRAM()
     {
-        System.out.println(
-            "- Intel: Preparando "
-                + myStrategy.getRAM()
-                + " GB de RAM ...");
+        return "- Intel: Preparando "
+            + myStrategy.getRAM()
+            + " GB de RAM ...";
     }
 
-    protected void addAlmacenamiento()
+    protected String addAlmacenamiento()
     {
-        System.out.println(
-            "- Intel: Preparando "
-                + myStrategy.getAlmacenamiento()
-                + " GB de HDD...");
+        return "- Intel: Preparando "
+            + myStrategy.getAlmacenamiento()
+            + " GB de HDD...";
     }
 
-    protected void verificarEnsamblado()
+    protected String verificarEnsamblado()
     {
-        System.out.println("Listo Intel " + myStrategy.toString());
+        return "Listo Intel " + myStrategy.toString();
     }
 }
-
-// _________________________________ Getters
-// _________________________________ Setters
-// ________________________ Métodos Privados

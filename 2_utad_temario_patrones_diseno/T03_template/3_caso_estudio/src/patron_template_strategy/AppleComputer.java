@@ -1,4 +1,5 @@
 package patron_template_strategy;
+
 public class AppleComputer extends ComputerBuilder
 {
     // _______________________________ Atributos
@@ -14,32 +15,29 @@ public class AppleComputer extends ComputerBuilder
     }
 
     // ________________________ Métodos Públicos
-    protected void addProcesador()
+    protected String addProcesador()
     {
-        System.out.println(
-            "- Apple: Preparando Procesador "
-                + procesador
-                + " ...");
+        return "- Apple: Preparando Procesador "
+            + procesador
+            + " ...";
     }
 
-    protected void addRAM()
+    protected String addRAM()
     {
-        System.out.println(
-            "- Apple: Preparando "
-                + myStrategy.getRAM()
-                + " GB de RAM ...");
+        return "- Apple: Preparando "
+            + myStrategy.getRAM()
+            + " GB de RAM ...";
     }
 
-    protected void addAlmacenamiento()
+    protected String addAlmacenamiento()
     {
-        System.out.println(
-            "- Apple: Preparando "
-                + myStrategy.getAlmacenamiento()
-                + " GB de HDD...");
+        return "- Apple: Preparando "
+            + myStrategy.getAlmacenamiento()
+            + " GB de HDD...";
     }
 
-    protected void verificarEnsamblado()
+    protected String verificarEnsamblado()
     {
-        System.out.println("Listo Apple " + myStrategy.toString());
+        return "Listo Apple " + myStrategy.toString();
     }
 }

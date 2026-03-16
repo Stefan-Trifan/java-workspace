@@ -9,25 +9,24 @@ public class Main
         ComputerConfigurationStrategy myStrategy;
 
         myStrategy = new OfficeComputer();
-        ComputerBuilder myIntelComputer = new IntelComputer(
+        ComputerBuilder myFirstComputer = new IntelComputer(
             myStrategy,
             "Intel Core i3");
-        myIntelComputer.buildComputer();
-        System.out.println();
+        System.out.println(myFirstComputer.buildComputer());
 
         myStrategy = new WorkstationComputer();
-        ComputerBuilder myAppleComputer = new AppleComputer(
+        ComputerBuilder myStudyComputer = new AppleComputer(
             myStrategy,
             "M5");
-        myAppleComputer.buildComputer();
-        System.out.println();
+        myStudyComputer.buildComputer();
+        System.out.println(myStudyComputer.buildComputer());
 
         myStrategy = new GamingComputer();
-        ComputerBuilder myAMDComputer = new AMDComputer(
+        ComputerBuilder myGamingComputer = new AMDComputer(
             myStrategy,
             "Ryzen 7");
-        myAMDComputer.buildComputer();
-        System.out.println();
+        myGamingComputer.buildComputer();
+        System.out.println(myGamingComputer.buildComputer());
 
         System.out.println("\n_______________________END\n");
     }
