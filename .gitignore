@@ -17,3 +17,6 @@ out/
 
 # Dependencias (si usas Maven/Gradle no hace falta)
 target/
+
+# Otros
+class.txt
