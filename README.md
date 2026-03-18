@@ -10,7 +10,6 @@ Incluye tanto el contenido de las asignaturas como el material adicional que he 
 - **Ejercicios hechos en clase** 
 - **Ejercicios de refuerzo** para mejorar comprensión y soltura
 - **Proyectos evaluables** 
-- **Exámenes**
 - **Curso de YouTube**:  
   *"Curso Completo de Java desde Cero para Principiantes"* de MoureDev
 - **Entorno de pruebas**
