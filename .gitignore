@@ -1,1 +1,19 @@
+# Mac
 .DS_Store
+
+# IDEs
+.vscode/
+.settings/
+*.iml
+.idea/
+
+# Compilados
+bin/
+out/
+*.class
+
+# Logs
+*.log
+
+# Dependencias (si usas Maven/Gradle no hace falta)
+target/
