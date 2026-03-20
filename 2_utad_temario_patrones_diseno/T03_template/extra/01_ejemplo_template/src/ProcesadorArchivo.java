@@ -2,7 +2,8 @@
 
 // Define el algoritmo completo → procesar()
 // Fija el orden de ejecución
-// Deja un paso abstracto para que lo implementen las subclases
+// Deja un paso abstracto para que
+// lo implementen las subclases
 
 // Clave:
 // El método procesar() NO debe cambiar.
