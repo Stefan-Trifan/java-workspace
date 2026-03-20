@@ -18,10 +18,7 @@ public class Semaforo
     }
 
     // ________________________ Métodos Públicos
-    public void cambiar()
-    {
-        estado.cambiar(this);
-    }
+s
 }
 
 
