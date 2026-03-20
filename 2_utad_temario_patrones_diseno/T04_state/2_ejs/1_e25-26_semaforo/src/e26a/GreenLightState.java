@@ -1,9 +1,10 @@
 package e26a;
+
 public class GreenLightState implements TrafficLightState
 {
     public void cambiar(TrafficLight miSemaforo)
     {
-        miSemaforo.setTrafficLightState(new AmberLightState());
+        miSemaforo.setTrafficLightState(miSemaforo.getAmberLight());
     }
 
     public void show()
