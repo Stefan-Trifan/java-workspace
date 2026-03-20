@@ -4,6 +4,9 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
+        Order pedidoAirFryer = new Order();
+        pedidoAirFryer.procesarPedido();
+
         System.out.println("\n_______________________END\n");
     }
 }

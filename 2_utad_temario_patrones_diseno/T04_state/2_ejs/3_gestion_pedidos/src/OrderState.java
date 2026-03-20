@@ -5,5 +5,5 @@ public interface OrderState
     void confirmOrder();
     void prepareOrder();
     void shipOrder();
-    void deliverOrder();
+    void deliveredOrder();
 }
