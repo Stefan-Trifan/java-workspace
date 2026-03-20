@@ -1,10 +1,11 @@
+// Rol: State (la abstracción)
+
 public interface EstadoSemaforo
 {
     void cambiar(Semaforo semaforo);
 }
 
-/* Rol: State (la abstracción)
-
+/* Ver Info 
 Es el contrato común que todos los estados deben cumplir.
 
 Define:

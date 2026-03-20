@@ -1,17 +1,19 @@
+// Rol: Concrete State
+
 public class Rojo implements EstadoSemaforo
 {
     @Override
     public void cambiar(Semaforo semaforo)
     {
-        System.out.println("Semáforo en ROJO → Cambia a VERDE");
+        System.out.println(
+            "Semáforo en ROJO → Cambia a VERDE");
         semaforo.setEstado(new Verde());
     }
 }
 
-/* Rol: Concrete State
-
+/* Ver Info 
 Cada uno representa:
-    •	Un estado concreto
+•	Un estado concreto
     •	Un comportamiento específico
     •	Una transición concreta
 

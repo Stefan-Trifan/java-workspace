@@ -1,7 +1,5 @@
 // Estrategia concreta
 
-// Define una implementación a un algoritmo mediante la interfaz de Estrategia
-
 public class Suma implements Operacion
 {
     @Override
@@ -10,3 +8,6 @@ public class Suma implements Operacion
         return a + b;
     }
 }
+
+/* Ver info 
+Define una implementación a un algoritmo mediante la interfaz de Estrategia */
