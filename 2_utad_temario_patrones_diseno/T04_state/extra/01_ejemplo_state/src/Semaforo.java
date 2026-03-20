@@ -16,13 +16,10 @@ public class Semaforo
     {
         this.estado = estado;
     }
-
-    // ________________________ Métodos Públicos
-s
 }
 
+/* Ver Info
 
-/* Ver Info 
 Es el objeto principal del sistema.
  - Contiene el estado actual.
  - Delegará el comportamiento al estado.

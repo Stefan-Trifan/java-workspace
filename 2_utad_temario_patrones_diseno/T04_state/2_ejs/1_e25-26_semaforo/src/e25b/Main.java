@@ -1,4 +1,6 @@
-package despues;
+package e25b;
+
+import java.util.concurrent.TimeUnit;
 
 public class Main
 {
@@ -6,22 +8,20 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        ContextoSemaforo semaforo = new ContextoSemaforo();
+        TrafficLight trafficLight = new TrafficLight();
+        trafficLight.show();
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 7; i++)
         {
-            System.out.println(semaforo.verColor());
-            System.out.println(semaforo.mostrarEstado());
-            semaforo.cambiar();
+            trafficLight.show();
             try
             {
-                Thread.sleep(1000); // @off
+                TimeUnit.SECONDS.sleep(1); // @off
             }
             catch (InterruptedException e)
             {
                 e.printStackTrace(); // @on
             }
-            System.out.println();
         }
 
         System.out.println("\n_______________________END\n");

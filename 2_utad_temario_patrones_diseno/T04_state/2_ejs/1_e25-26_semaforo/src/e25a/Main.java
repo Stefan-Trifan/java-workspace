@@ -1,16 +1,17 @@
-public class TrafficLightTest
+package e25a;
+public class Main
 {
     public static void main(String[] args)
     {
         System.out.println("\n_______________________START\n");
-        TrafficLight trafficLight = new TrafficLight(new GreenLightState());
 
+        TrafficLight trafficLight = new TrafficLight(new AmberLightState());
         trafficLight.show();
 
-        trafficLight.setTrafficLightState(new AmberLightState());
+        trafficLight.cambiar();
         trafficLight.show();
 
-        trafficLight.setTrafficLightState(new RedLightState());
+        trafficLight.cambiar();
         trafficLight.show();
 
         System.out.println("\n_______________________END\n");
