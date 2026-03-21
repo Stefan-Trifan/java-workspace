@@ -4,13 +4,11 @@ public class Order
 {
     // _______________________________ Atributos
     private OrderState actualState;
-    private OrderState pendingState   = new PendingState();
-
-    private OrderState preparingState = new PreparingState();
-
-    private OrderState shippingState  = new ShippingState();
-
-    private OrderState deliveredState = new DeliveredState();
+    private OrderState pendingState          = new PendingState();
+    private OrderState preparingState        = new PreparingState();
+    private OrderState readyForShippingState = new ReadyForShippingState();
+    private OrderState deliveringState       = new DeliveringState();
+    private OrderState deliveredState        = new DeliveredState();
 
     // ___________________________ Constructores
     public Order(OrderState state)
@@ -21,6 +19,41 @@ public class Order
     public Order()
     {
         this.actualState = pendingState;
+    }
+
+    // ________________________ Métodos Públicos
+    public void procesarPedido()
+    {
+        confirmOrder();
+        prepareOrder();
+        shipOrder();
+        deliveredOrder();
+    }
+
+    public void confirmOrder()
+    {
+        actualState.confirmOrder(this);
+    }
+
+    public void prepareOrder()
+    {
+        actualState.prepareOrder(this);
+    }
+
+    public void shipOrder()
+    {
+        actualState.shipOrder(this);
+    }
+
+    public void deliveredOrder()
+    {
+        actualState.deliveredOrder(this);
+
+    }
+
+    public void backToPreviousState()
+    {
+        actualState.backToPreviousState(this);
     }
 
     // _________________________________ Setters
@@ -40,42 +73,18 @@ public class Order
         return preparingState;
     }
 
-    public OrderState getShippingState()
+    public OrderState getReadyForShippingState()
     {
-        return shippingState;
+        return readyForShippingState;
+    }
+
+    public OrderState getDeliveringState()
+    {
+        return deliveringState;
     }
 
     public OrderState getDeliveredState()
     {
         return deliveredState;
-    }
-
-    // ________________________ Métodos Públicos
-    public void procesarPedido()
-    {
-        confirmOrder();
-        prepareOrder();
-        shipOrder();
-        deliveredOrder();
-    }
-
-    private void confirmOrder()
-    {
-        actualState.confirmOrder();
-    }
-
-    private void prepareOrder()
-    {
-        actualState.prepareOrder();
-    }
-
-    private void shipOrder()
-    {
-        actualState.shipOrder();
-    }
-
-    private void deliveredOrder()
-    {
-        actualState.deliveredOrder();
     }
 }

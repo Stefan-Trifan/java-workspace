@@ -1,27 +1,31 @@
 // Clase concreta para el estado "En preparación"
 
-// Todo arreglar los sout
-
 public class PreparingState implements OrderState
 {
-    public void confirmOrder()
-    {
-        System.out.println("Pedido en preparacion!");
-    }
-
-    public void prepareOrder()
-    {
-        System.out.println("Pedido preparado! -> Enviando pedido");
-        shipOrder();
-    }
-
-    public void shipOrder()
-    {
-        System.out.println("Pedido en camino!");
-    }
-
-    public void deliveredOrder()
+    public void confirmOrder(Order myOrder)
     {
         System.out.println("Operacion no disponible");
+    }
+
+    public void prepareOrder(Order myOrder)
+    {
+        System.out.println("Preparing -> ReadyForShipping");
+        myOrder.setState(myOrder.getReadyForShippingState());
+    }
+
+    public void shipOrder(Order myOrder)
+    {
+        System.out.println("Operacion no disponible");
+    }
+
+    public void deliveredOrder(Order myOrder)
+    {
+        System.out.println("Operacion no disponible");
+    }
+
+    public void backToPreviousState(Order myOrder)
+    {
+        System.out.println("Pending <- Preparing");
+        myOrder.setState(myOrder.getPendingState());
     }
 }
