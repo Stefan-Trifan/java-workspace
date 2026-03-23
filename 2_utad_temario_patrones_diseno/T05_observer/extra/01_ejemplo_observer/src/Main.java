@@ -14,6 +14,7 @@ public class Main
 
         subject.setState(10);
         subject.setState(20);
+        subject.setState(30);
 
         System.out.println("\n_______________________END\n");
     }
