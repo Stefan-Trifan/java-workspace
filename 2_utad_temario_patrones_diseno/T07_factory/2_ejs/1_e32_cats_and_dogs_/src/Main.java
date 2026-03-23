@@ -14,7 +14,7 @@ public class Main
             animals[i] = animalFactory.factoryAnimalMethod();
         }
 
-        // TODO Impresión del número de Dogs
+        // todo Impresión del número de Dogs
         // todo y Cats y la proporción de cada uno
         int numDogs = 0;
         int numCats = 0;
@@ -44,7 +44,7 @@ public class Main
             animals[i] = animalFactoryOverCats.factoryAnimalMethod();
         }
 
-        // TODO Impresión del número de Dogs y Cats
+        // todo Impresión del número de Dogs y Cats
         // todo y la proporción de cada uno
         numDogs = 0;
         numCats = 0;
