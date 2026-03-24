@@ -1,12 +1,12 @@
-package e16_template;
+package e16_generics;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Numero implements Subject
+public class Numero implements Subject<Integer>
 {
     // _______________________________ Atributos
-    private List<Observer> observers;
+    private List<Observer<Integer>> observers;
     private Integer        valor;
 
     // ___________________________ Constructores
@@ -17,10 +17,10 @@ public class Numero implements Subject
 
     public Numero(Integer valor)
     {
-        this(valor, new ArrayList<Observer>());
+        this(valor, new ArrayList<Observer<Integer>>());
     }
 
-    public Numero(Integer valor, List<Observer> observers)
+    public Numero(Integer valor, List<Observer<Integer>> observers)
     {
         super();
         this.valor = valor;
@@ -29,25 +29,27 @@ public class Numero implements Subject
 
     // ________________________ Métodos Públicos
 
-    public Integer getValor()
+    @Override
+    public Integer getState()
     {
         return this.valor;
     }
 
-    public void setValor(Integer valor)
+    @Override
+    public void setState(Integer object)
     {
-        this.valor = valor;
+        this.valor = object;
         this.notifyObservers();
     }
 
     @Override
-    public void addObserver(Observer observer)
+    public void addObserver(Observer<Integer> observer)
     {
         this.observers.add(observer);
     }
 
     @Override
-    public void removeObserver(Observer observer)
+    public void removeObserver(Observer<Integer> observer)
     {
         this.observers.remove(observer);
     }
@@ -55,7 +57,7 @@ public class Numero implements Subject
     @Override
     public void notifyObservers()
     {
-        for (Observer observer : this.observers)
+        for (Observer<Integer> observer : this.observers)
         {
             observer.update(this, this.valor);
         }

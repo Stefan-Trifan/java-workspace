@@ -1,4 +1,4 @@
-package e16_template;
+package e16_generics;
 
 public class Main
 {
@@ -6,14 +6,12 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        Subject subject = new Numero();
-
-        // Numero ConcreteSubject = (Numero) subject;
+        Subject<Integer> subject = new Numero();
 
         // Crea los observadores
-        Observer binaryIntegerObserver = new BinaryIntegerObserver();
-        Observer hexaIntegerObserver = new HexaIntegerObserver();
-        Observer octalIntegerObserver = new OctalIntegerObserver();
+        Observer<Integer> binaryIntegerObserver = new BinaryIntegerObserver();
+        Observer<Integer> hexaIntegerObserver = new HexaIntegerObserver();
+        Observer<Integer> octalIntegerObserver = new OctalIntegerObserver();
 
         subject.addObserver(binaryIntegerObserver);
         subject.addObserver(hexaIntegerObserver);
@@ -22,12 +20,12 @@ public class Main
         System.out.println("First valor value ***************");
         System.out.println("Valor decimal value: 11");
 
-        subject.setValor(11);
+        subject.setState(11);
 
         System.out.println("Second valor value ***************");
         System.out.println("Valor decimal value: 14");
 
-        subject.setValor(14);
+        subject.setState(14);
 
         System.out.println("\n_______________________END\n");
     }
