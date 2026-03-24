@@ -1,3 +1,4 @@
+package e15;
 
 public class Main
 {
@@ -12,12 +13,12 @@ public class Main
         Observer hexadecimal = new HexadecimalObsever(subject);
 
         subject.addObserver(binario, octal, hexadecimal);
-        subject.setValor(10);
+        subject.setValor(11);
 
         System.out.println();
 
         subject.removeObserver(hexadecimal);
-        subject.setValor(25);
+        subject.setValor(14);
 
         System.out.println("\n_______________________END\n");
     }

@@ -1,3 +1,4 @@
+package e15;
 class OctalObsever implements Observer
 {
     private Numero subject;

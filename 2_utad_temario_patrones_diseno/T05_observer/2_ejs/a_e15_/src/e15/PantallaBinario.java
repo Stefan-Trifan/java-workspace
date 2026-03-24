@@ -1,3 +1,4 @@
+package e15;
 class BinarioObserver implements Observer
 {
     private Numero subject;

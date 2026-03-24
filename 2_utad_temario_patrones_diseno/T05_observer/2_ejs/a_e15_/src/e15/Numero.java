@@ -1,6 +1,7 @@
+package e15;
 import java.util.*;
 
-class Numero
+class Numero implements Subject
 {
     // _______________________________ Atributos
     private int            valor;
