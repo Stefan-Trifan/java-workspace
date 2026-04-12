@@ -1,9 +1,7 @@
 import java.util.*;
 
-public class UsoEmpleado
-{
-    public static void main(String[] args)
-    {
+public class UsoEmpleado {
+    public static void main(String[] args) {
         System.out.println("\n_______________________START\n");
 
         // Array tradicional
@@ -32,19 +30,18 @@ public class UsoEmpleado
         System.out.println(listaEmpleados2.get(1).dameDatos());
         for (Empleado e : listaEmpleados2) // Forma moderna
         {
-        System.out.println(e.dameDatos());
+            System.out.println(e.dameDatos());
         }
         for (int i = 0; i < listaEmpleados2.size(); i++) // Forma tradicional
         {
-        Empleado e = listaEmpleados2.get(i);
+            Empleado e = listaEmpleados2.get(i);
 
-        System.out.println(e.dameDatos());
+            System.out.println(e.dameDatos());
         }
 
         // Iteradores
         Iterator<Empleado> mIterator = listaEmpleados2.iterator();
-        while (mIterator.hasNext())
-        {
+        while (mIterator.hasNext()) {
             System.out.println(mIterator.next().dameDatos());
         }
 
@@ -52,25 +49,22 @@ public class UsoEmpleado
     }
 }
 
-class Empleado
-{
+class Empleado {
 
-    public Empleado(String nombre, int edad, double salario)
-    {
+    public Empleado(String nombre, int edad, double salario) {
         this.nombre = nombre;
         this.edad = edad;
         this.salario = salario;
     }
 
-    public String dameDatos()
-    {
+    public String dameDatos() {
         return "El empleado se llama " + nombre + ". Tiene " + edad + " años." +
-            " Y un salario de " + salario;
+                " Y un salario de " + salario;
     }
 
     private String nombre;
 
-    private int    edad;
+    private int edad;
 
     private double salario;
 }

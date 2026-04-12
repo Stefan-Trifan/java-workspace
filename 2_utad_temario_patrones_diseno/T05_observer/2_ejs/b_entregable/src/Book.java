@@ -1,4 +1,4 @@
-public class template1
+public class Book
 {
     // _______________________________ Atributos
     // ___________________________ Constructores
