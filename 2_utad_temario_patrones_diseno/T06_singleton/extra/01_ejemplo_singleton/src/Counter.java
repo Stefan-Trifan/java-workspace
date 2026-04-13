@@ -1,19 +1,24 @@
 public class Counter
 {
     // _______________________________ Atributos
+
     // Referencia estática que guardará la única instancia de la clase
     private static Counter instance;
-    private int value; // Atributo normal del objeto
+
+    // Atributo normal del objeto
+    private int value;
 
     // ___________________________ Constructores
     // Constructor privado
-    // Esto impide que otras clases puedan crear objetos con "new Counter()"
+    // Esto impide que otras clases puedan
+    // crear objetos con "new Counter()"
     private Counter()
     {
         value = 0;
     }
 
     // ________________________ Métodos Públicos
+
     // Método estático para obtener la única instancia
     // Si no existe, la crea. Si ya existe, devuelve la misma
     public static Counter getInstance()
@@ -27,13 +32,11 @@ public class Counter
         return instance;
     }
 
-    // Incrementa el contador
     public void increment()
     {
         value++;
     }
 
-    // Devuelve el valor actual del contador
     public int getValue()
     {
         return value;
