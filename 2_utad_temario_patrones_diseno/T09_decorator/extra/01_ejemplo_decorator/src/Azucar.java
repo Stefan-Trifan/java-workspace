@@ -1,6 +1,5 @@
 public class Azucar extends BebidaDecorator
 {
-
     public Azucar(Bebida bebida)
     {
         super(bebida);
@@ -18,3 +17,5 @@ public class Azucar extends BebidaDecorator
         return bebida.getPrecio() + 0.10;
     }
 }
+
+// Decoradores Concretos

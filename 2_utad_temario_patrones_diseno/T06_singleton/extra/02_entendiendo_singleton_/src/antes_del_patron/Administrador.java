@@ -1,3 +1,4 @@
+package antes_del_patron;
 public class Administrador
 {
     private Impresora impresora;

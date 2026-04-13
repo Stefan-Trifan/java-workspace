@@ -1,6 +1,5 @@
 public abstract class BebidaDecorator implements Bebida
 {
-
     protected Bebida bebida;
 
     public BebidaDecorator(Bebida bebida)
@@ -8,3 +7,5 @@ public abstract class BebidaDecorator implements Bebida
         this.bebida = bebida;
     }
 }
+
+// Decorador Abstracto

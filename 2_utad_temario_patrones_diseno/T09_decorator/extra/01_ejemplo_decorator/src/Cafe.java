@@ -1,6 +1,5 @@
 public class Cafe implements Bebida
 {
-
     @Override
     public String getDescripcion()
     {
@@ -13,3 +12,5 @@ public class Cafe implements Bebida
         return 1.50;
     }
 }
+
+// Componente Concreto (Objeto base)
