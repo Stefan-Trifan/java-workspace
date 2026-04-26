@@ -16,6 +16,12 @@ public class Semaforo
     {
         this.estado = estado;
     }
+
+    // ________________________ Métodos Públicos
+    public void cambiar()
+    {
+        estado.cambiar(this);
+    }
 }
 
 /* Ver Info

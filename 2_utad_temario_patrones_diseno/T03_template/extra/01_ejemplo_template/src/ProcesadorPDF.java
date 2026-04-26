@@ -9,9 +9,4 @@ public class ProcesadorPDF extends ProcesadorArchivo
     {
         System.out.println("Procesando contenido PDF...");
     }
-
-    public static void main(String[] args)
-    {
-        System.out.println("yes");
-    }
 }
