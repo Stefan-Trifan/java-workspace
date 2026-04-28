@@ -9,7 +9,7 @@ public class Main
             cafe.getDescripcion(),
             cafe.getPrecio());
 
-        Bebida cafeConLeche = new Leche(cafe);
+        Bebida cafeConLeche = new Leche(new Cafe());
         System.out.printf("%s -> %.2f%n",
             cafeConLeche.getDescripcion(),
             cafeConLeche.getPrecio());
