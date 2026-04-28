@@ -1,3 +1,12 @@
+package domain;
+
+import domain.*;
+import observer.*;
+import state.*;
+import strategy.*;
+
+// import paquete.*;
+
 public class Main
 {
     public static void main(String[] args)
@@ -32,20 +41,20 @@ public class Main
         //     bookGood,
         //     student);
 
-        // La biblioteca gestiona las reservas recién creadas
+        // - La biblioteca gestiona las reservas recién creadas
         // library.processLibraryLoan(studentLoanRequest);
         // library.processLibraryLoan(professorLoanRequest);
 
-        // La biblioteca gestiona la recogida del libro del docente.
+        // - La biblioteca gestiona la recogida del libro del docente.
         // library.processLibraryLoan(professorLoanRequest);
 
-        // La biblioteca gestiona la recogida del libro del alumno.
+        // - La biblioteca gestiona la recogida del libro del alumno.
         // library.processLibraryLoan(studentLoanRequest);
 
-        // La biblioteca gestiona la devolución del libro del alumno.
+        // - La biblioteca gestiona la devolución del libro del alumno.
         // library.returnBook(studentLoanRequest.getBook(), studentLoanRequest);
 
-        // La biblioteca gestiona la devolución del libro del docente.
+        // - La biblioteca gestiona la devolución del libro del docente.
         // library.returnBook(professorLoanRequest.getBook(), professorLoanRequest);
 
         System.out.println("\n_______________________END\n");

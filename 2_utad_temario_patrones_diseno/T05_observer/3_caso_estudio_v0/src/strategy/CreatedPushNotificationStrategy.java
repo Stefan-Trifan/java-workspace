@@ -1,5 +1,11 @@
-package state;
-public class LibraryLoanStateTransition
+package strategy;
+
+import domain.*;
+import observer.*;
+import state.*;
+import strategy.*;
+
+public class CreatedPushNotificationStrategy extends LibraryPushNotificationStrategy
 {
     // _______________________________ Atributos
     // ___________________________ Constructores

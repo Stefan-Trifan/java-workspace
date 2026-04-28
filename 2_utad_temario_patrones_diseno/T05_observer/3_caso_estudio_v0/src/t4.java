@@ -1,5 +1,4 @@
-package strategy;
-public class PickupPushNotificationStrategy
+public class t4
 {
     // _______________________________ Atributos
     // ___________________________ Constructores

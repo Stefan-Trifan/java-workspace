@@ -1,5 +1,11 @@
 package strategy;
-public class LibraryPushNotificationStrategy
+
+import domain.*;
+import observer.*;
+import state.*;
+import strategy.*;
+
+public class PickupPushNotificationStrategy extends LibraryPushNotificationStrategy
 {
     // _______________________________ Atributos
     // ___________________________ Constructores

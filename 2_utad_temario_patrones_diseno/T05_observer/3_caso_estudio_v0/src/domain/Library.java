@@ -1,5 +1,11 @@
-package strategy;
-public class NotificationStrategy
+package domain;
+
+import domain.*;
+import observer.*;
+import state.*;
+import strategy.*;
+
+public class Library
 {
     // _______________________________ Atributos
     // ___________________________ Constructores
