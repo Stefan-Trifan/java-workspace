@@ -13,7 +13,6 @@ public class Loan
     private Book      book;
     private StateLoan stateLoan;
 
-
     // ___________________________ Constructores
     public Loan(User user, Book book)
     {
@@ -27,6 +26,7 @@ public class Loan
     {
         return stateLoan;
     }
+
     // _________________________________ Setters
     public void setState(StateLoan stateLoan)
     {

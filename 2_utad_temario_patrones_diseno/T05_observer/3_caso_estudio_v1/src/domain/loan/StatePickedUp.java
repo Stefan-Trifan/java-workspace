@@ -12,7 +12,6 @@ public class StatePickedUp implements StateLoan
     {
         System.out.println("Cambiando estado a RETURNED");
         loan.setState(new StateReturned());
-        // System.out.println("Estado = RETURNED\n");
     }
 
     public void reject(Loan loan)
