@@ -1,9 +1,6 @@
 package app;
 
-import domain.Book;
 import domain.Library;
-import domain.Loan;
-import domain.User;
 
 public class Main
 {
@@ -14,15 +11,22 @@ public class Main
         // crear usuario
         Library biblioAnaMariaMatute = new Library();
 
-        // Creamos 2 prestamos
+        // Creamos prestamos
+        System.out.println("Creamos prestamos");
         biblioAnaMariaMatute.crearPrestamoTest();
         biblioAnaMariaMatute.crearPrestamoTest();
         biblioAnaMariaMatute.crearPrestamoTest();
         biblioAnaMariaMatute.crearPrestamoTest();
         biblioAnaMariaMatute.crearPrestamoTest();
+        System.out.println();
 
+        System.out.println("Listado");
         biblioAnaMariaMatute.mostrarTodosPrestamos();
+        System.out.println();
+        System.out.println("Rechazamos todos");
         biblioAnaMariaMatute.rechazarTodosPrestamos();
+        System.out.println();
+        System.out.println("Listado");
         biblioAnaMariaMatute.mostrarTodosPrestamos();
 
         System.out.println("\n_______________________END\n");

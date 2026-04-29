@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import domain.observer.User;
 import domain.stateLoan.StateReturned;
 
 public class Library

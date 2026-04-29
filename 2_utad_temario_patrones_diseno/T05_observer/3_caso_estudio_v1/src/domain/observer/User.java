@@ -1,9 +1,8 @@
-package domain;
+package domain.observer;
 
-import java.time.LocalDate;
-
-import domain.notificationStrategy.*;
-import domain.stateLoan.*;
+import domain.Loan;
+import domain.notificationStrategy.CreatedNotification;
+import domain.notificationStrategy.NotifStrategy;
 
 public class User implements Observer
 {

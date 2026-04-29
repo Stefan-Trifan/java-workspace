@@ -1,7 +1,6 @@
 package domain.stateLoan;
 
 import domain.Loan;
-import domain.notificationStrategy.CreatedNotification;
 import domain.notificationStrategy.PickedUpNotification;
 import domain.notificationStrategy.RejectedNotification;
 

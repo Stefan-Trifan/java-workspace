@@ -2,7 +2,6 @@ package domain.stateLoan;
 
 import domain.Loan;
 import domain.notificationStrategy.AdmittedNotification;
-import domain.notificationStrategy.CreatedNotification;
 import domain.notificationStrategy.RejectedNotification;
 
 public class StateCreated implements State

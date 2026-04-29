@@ -2,6 +2,7 @@ package domain;
 
 import java.time.LocalDate;
 
+import domain.observer.User;
 import domain.stateLoan.State;
 import domain.stateLoan.StateCreated;
 

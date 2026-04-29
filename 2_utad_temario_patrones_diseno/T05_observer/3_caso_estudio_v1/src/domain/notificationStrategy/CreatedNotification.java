@@ -1,7 +1,6 @@
 package domain.notificationStrategy;
 
 import domain.Loan;
-import domain.stateLoan.*;
 
 public class CreatedNotification implements NotifStrategy
 {
