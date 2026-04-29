@@ -1,9 +1,10 @@
-package domain.loan;
+package domain.stateLoan;
 
-public interface StateLoan
+import domain.Loan;
+
+public interface State
 {
     // ________________________ Métodos Públicos
     public void cambiar(Loan loan);
     public void reject(Loan loan);
-    public String devolverState();
 }

@@ -1,27 +1,44 @@
 package domain;
 
-import domain.loan.*;
-import domain.observer.Observer;
+import java.time.LocalDate;
+
+import domain.notificationStrategy.*;
+import domain.stateLoan.*;
 
 public class User implements Observer
 {
     // _______________________________ Atributos
-    private String name;
+
+    private NotifStrategy notifStrategy;
+    private String        name;
 
     // ___________________________ Constructores
+
     public User(String name)
     {
+        notifStrategy = new CreatedNotification();
         this.name = name;
     }
 
     // _________________________________ Getters
+
+    public String getName()
+    {
+        return name;
+    }
+
     // _________________________________ Setters
+
+    public void setNotifStrategy(NotifStrategy notifStrategy)
+    {
+        this.notifStrategy = notifStrategy;
+    }
     // ________________________ Métodos Públicos
+
     @Override
     public void update(Loan loan)
     {
-        System.out.println("[VER NOTIFICACION] -> "
-            + loan.getStateLoan().devolverState() + "\n");
+        notifStrategy.notificar(loan);
     }
     // ________________________ Métodos Privados
 }

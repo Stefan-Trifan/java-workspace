@@ -1,8 +1,9 @@
 package app;
 
 import domain.Book;
+import domain.Library;
+import domain.Loan;
 import domain.User;
-import domain.loan.Loan;
 
 public class Main
 {
@@ -11,25 +12,23 @@ public class Main
         System.out.println("\n_______________________START\n");
 
         // crear usuario
-        User user = new User("Steve");
+        Library biblioAnaMariaMatute = new Library();
 
-        // crear libro
-        Book book = new Book("Atomos Atomicos", "El pepe");
+        // Creamos 2 prestamos
+        biblioAnaMariaMatute.crearPrestamoTest();
+        biblioAnaMariaMatute.crearPrestamoTest();
+        biblioAnaMariaMatute.crearPrestamoTest();
+        biblioAnaMariaMatute.crearPrestamoTest();
+        biblioAnaMariaMatute.crearPrestamoTest();
 
-        // crear préstamo (Loan)
-        Loan loan = new Loan(user, book);
-
-        // llamar a métodos y ver resultados
-        loan.processLoan();
-        loan.processLoan();
-        loan.processLoan();
-        loan.processLoan();
-
-        // crear préstamo (Loan)
-        Loan loan2 = new Loan(user, book);
-        loan2.processLoan();
-        loan2.rejectLoan();
+        biblioAnaMariaMatute.mostrarTodosPrestamos();
+        biblioAnaMariaMatute.rechazarTodosPrestamos();
+        biblioAnaMariaMatute.mostrarTodosPrestamos();
 
         System.out.println("\n_______________________END\n");
     }
 }
+
+/*
+ * - Eliminar imports innecesarios con el comando
+ */

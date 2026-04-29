@@ -1,6 +1,6 @@
-package domain.observer;
+package domain;
 
-import domain.loan.*;
+import domain.stateLoan.*;
 
 public interface Observer
 {
