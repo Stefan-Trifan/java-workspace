@@ -1,4 +1,4 @@
-package domain;
+package domain.observer;
 
 import domain.loan.*;
 

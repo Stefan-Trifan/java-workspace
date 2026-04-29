@@ -25,10 +25,6 @@ public class Main
         loan.processLoan();
         loan.processLoan();
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
-
         // crear préstamo (Loan)
         Loan loan2 = new Loan(user, book);
         loan2.processLoan();

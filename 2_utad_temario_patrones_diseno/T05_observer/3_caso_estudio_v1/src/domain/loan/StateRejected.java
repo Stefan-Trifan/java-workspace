@@ -3,9 +3,10 @@ package domain.loan;
 public class StateRejected implements StateLoan
 {
     // ________________________ Métodos Públicos
+
     public String devolverState()
     {
-        return "Estado = REJECTED\n";
+        return "Estado = REJECTED";
     }
 
     public void cambiar(Loan loan)
@@ -13,7 +14,7 @@ public class StateRejected implements StateLoan
         System.out.println("Advertencia: Operacion Prohibida");
     }
 
-    public void reject(Loan loan)
+    public void reject(Loan loan)   
     {
         System.out.println("Advertencia: "
             + "La devolucion ya está rechazada");

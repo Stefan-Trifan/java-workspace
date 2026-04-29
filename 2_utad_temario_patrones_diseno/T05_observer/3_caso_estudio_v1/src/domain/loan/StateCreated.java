@@ -4,9 +4,10 @@ public class StateCreated implements StateLoan
 {
 
     // ________________________ Métodos Públicos
+
     public String devolverState()
     {
-        return "Estado = CREADO\n";
+        return "Estado = CREADO";
     }
 
     public void cambiar(Loan loan)

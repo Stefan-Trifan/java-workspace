@@ -3,9 +3,10 @@ package domain.loan;
 public class StatePickedUp implements StateLoan
 {
     // ________________________ Métodos Públicos
+
     public String devolverState()
     {
-        return "Estado = PICKED_UP\n";
+        return "Estado = PICKED_UP";
     }
 
     public void cambiar(Loan loan)

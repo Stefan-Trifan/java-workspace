@@ -3,9 +3,10 @@ package domain.loan;
 public class StateReturned implements StateLoan
 {
     // ________________________ Métodos Públicos
+
     public String devolverState()
     {
-        return "Estado = RETURNED\n";
+        return "Estado = RETURNED";
     }
 
     public void cambiar(Loan loan)

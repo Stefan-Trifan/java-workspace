@@ -1,6 +1,7 @@
 package domain;
 
 import domain.loan.*;
+import domain.observer.Observer;
 
 public class User implements Observer
 {
@@ -19,9 +20,8 @@ public class User implements Observer
     @Override
     public void update(Loan loan)
     {
-        StateLoan state = loan.getStateLoan();
-
-        System.out.println("[VER NOTIFICACION] -> " + state.devolverState());
+        System.out.println("[VER NOTIFICACION] -> "
+            + loan.getStateLoan().devolverState() + "\n");
     }
     // ________________________ Métodos Privados
 }
