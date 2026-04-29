@@ -1,9 +1,9 @@
 package domain;
 
-import domain.loan.StateLoan;
+import domain.loan.*;
 
 public interface Observer
 {
     // ________________________ Métodos Públicos
-    public void update(StateLoan stateLoan);
+    public void update(Loan loan);
 }

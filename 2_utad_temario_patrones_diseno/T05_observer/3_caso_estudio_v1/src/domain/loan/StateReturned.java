@@ -3,6 +3,11 @@ package domain.loan;
 public class StateReturned implements StateLoan
 {
     // ________________________ Métodos Públicos
+    public String devolverState()
+    {
+        return "Estado = RETURNED\n";
+    }
+
     public void cambiar(Loan loan)
     {
         System.out.println("Advertencia: "

@@ -13,16 +13,20 @@ public class Loan
     private Book      book;
     private StateLoan stateLoan;
 
+
     // ___________________________ Constructores
     public Loan(User user, Book book)
     {
         this.user = user;
         this.book = book;
         this.stateLoan = new StateCreated();
-        notifyObservers();
     }
 
     // _________________________________ Getters
+    public StateLoan getStateLoan()
+    {
+        return stateLoan;
+    }
     // _________________________________ Setters
     public void setState(StateLoan stateLoan)
     {
@@ -43,7 +47,7 @@ public class Loan
 
     public void notifyObservers()
     {
-        user.update(stateLoan);
+        user.update(this);
     }
 
     // ________________________ Métodos Privados
