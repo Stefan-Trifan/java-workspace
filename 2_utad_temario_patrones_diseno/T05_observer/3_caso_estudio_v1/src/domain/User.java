@@ -1,27 +1,24 @@
 package domain;
 
-import domain.*;
-import observer.*;
-import state.*;
-import strategy.*;
+import domain.loan.StateLoan;
 
-public class LibraryLoanNotification implements Observable
+public class User implements Observer
 {
     // _______________________________ Atributos
+    private String name;
     // ___________________________ Constructores
+    public User(String name)
+    {
+        this.name = name;
+    }
     // _________________________________ Getters
     // _________________________________ Setters
     // ________________________ Métodos Públicos
-
-    public void updateObservers()  // Implementacion de Observable
+    public void update(StateLoan stateLoan)
     {
-
+        System.out.println(
+            "Notificacion Recibida");
     }
-
-    public void notifyRequestObserver(LibraryUser LibraryU, LibraryPushNotificationStrategy libraryPushNotifStray)
-    {
-
-    }
-
     // ________________________ Métodos Privados
+
 }
