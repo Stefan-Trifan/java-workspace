@@ -18,5 +18,9 @@ public class GestorPagos
     {
         return instance;
     }
+    public void pay()
+    {
+        pagarStrategy.pagar();
+    }
     // ------------------------ Métodos Privados
 }
