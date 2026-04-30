@@ -1,9 +1,11 @@
-public class t2
-{
     // ------------------------------- Atributos
     // --------------------------- Constructores
     // --------------------------------- Getters
     // --------------------------------- Setters
     // ------------------------ Métodos Públicos
     // ------------------------ Métodos Privados
-}
+
+
+System.out.println("\n_______________________START\n");
+
+System.out.println("\n_______________________END\n");
