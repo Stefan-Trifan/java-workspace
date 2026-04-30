@@ -1,18 +1,18 @@
 public class SquareStrategy implements Strategy
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private double valor;
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public SquareStrategy(double valor)
     {
         this.valor = valor;
     }
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public double getArea()
     {
         return valor * valor;
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

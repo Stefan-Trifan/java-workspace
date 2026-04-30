@@ -1,10 +1,10 @@
 public class Administracion implements Observer
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void update(Observable observable, Object state)
     {
         System.out.println("- Administracion: Recibido.");
@@ -19,5 +19,5 @@ public class Administracion implements Observer
             System.out.println(((BookAlarm) observable).getBook().toString());
         }
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

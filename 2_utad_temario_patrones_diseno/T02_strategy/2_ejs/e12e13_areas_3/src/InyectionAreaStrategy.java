@@ -1,13 +1,13 @@
 public class InyectionAreaStrategy extends ContextAreaStrategy
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
     public InyectionAreaStrategy(Strategy mStrategy)
     {
         super(mStrategy);
     }
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
-    // ________________________ Métodos Privados
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
+    // ------------------------ Métodos Privados
 }

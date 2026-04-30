@@ -4,7 +4,7 @@ import java.util.Collections;
 public class Mazo
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     private static final int MAX_CARTAS = 40;
     private ArrayList<Carta> cartasDisponibles;      
@@ -32,7 +32,7 @@ public class Mazo
     // //_________________________________________
     // //________________ Constructores Auxiliares
     // _________________________________________
-    // _________________________________ Getters
+    // --------------------------------- Getters
     
     public static int getMaxCartas()
     {
@@ -52,7 +52,7 @@ public class Mazo
     // //_________________________________________
     // //_________________________________ Setters
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     // Cambia de posición todas las cartas aleatoriamente.
     public void barajar()

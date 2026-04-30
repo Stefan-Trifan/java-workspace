@@ -2,12 +2,12 @@
 
 public class ProcesadorCSV extends ProcesadorTemplate
 {
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ProcesadorCSV(ProcesadoStrategy estrategia)
     {
         super(estrategia);
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     protected void leer()
     {

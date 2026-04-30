@@ -1,6 +1,6 @@
 public class Wind extends Instrument
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void play(Note n)
     {
         System.out.println("Wind.play() " + n);

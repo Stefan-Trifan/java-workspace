@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class TestMazo
 {
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     public static void mostrarCartasDisponibles(Mazo miMazo)
     {

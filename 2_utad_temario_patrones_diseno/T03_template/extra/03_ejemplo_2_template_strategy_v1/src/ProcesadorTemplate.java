@@ -2,18 +2,18 @@
 
 public abstract class ProcesadorTemplate
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private ProcesadoStrategy estrategia;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ProcesadorTemplate(ProcesadoStrategy estrategia)
     {
         this.estrategia = estrategia;
     }
 
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public final void procesar()
     {
         abrir();
@@ -46,7 +46,7 @@ public abstract class ProcesadorTemplate
 
 
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }
 
 // Template

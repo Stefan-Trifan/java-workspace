@@ -1,9 +1,9 @@
 public class Circle
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private double radius;
     private double area;
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Circle(double radius)
     {
         this.radius = radius;
@@ -16,12 +16,12 @@ public class Circle
     {
         this(0.0);
     }
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public double getRadius()
     {
         return radius;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double getArea()
     {
         return area;

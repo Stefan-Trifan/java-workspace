@@ -1,6 +1,6 @@
 public class Engine
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String tipo;
     // ___________________ Constructor Principal
     public Engine(String tipo)
@@ -8,13 +8,13 @@ public class Engine
         this.tipo = tipo;
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public String encender()
     {
         return this.tipo + " encendido";
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 
 }

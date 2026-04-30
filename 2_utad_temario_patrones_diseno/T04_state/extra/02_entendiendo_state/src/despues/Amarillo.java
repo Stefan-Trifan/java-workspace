@@ -2,16 +2,16 @@ package despues;
 
 public class Amarillo implements EstadoSemaforo
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String color = "AMARILLO";
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public String getColor()
     {
         return color;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public String mostrarEstado()
     {
         return "Color actual: " + color + "\nLos coches deben ir frenando.";

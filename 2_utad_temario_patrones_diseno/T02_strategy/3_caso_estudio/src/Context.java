@@ -1,19 +1,19 @@
 public class Context
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     Strategy mStrategy;
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Context(Strategy mStrategy)
     {
         this.mStrategy = mStrategy;
     }
-    // _________________________________ Getters
-    // _________________________________ Setters
+    // --------------------------------- Getters
+    // --------------------------------- Setters
     public void setmStrategy(Strategy mStrategy)
     {
         this.mStrategy = mStrategy;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void examinar()
     {
         mStrategy.examinar();
@@ -26,6 +26,6 @@ public class Context
     {
         mStrategy.enviarResultado();
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 
 }

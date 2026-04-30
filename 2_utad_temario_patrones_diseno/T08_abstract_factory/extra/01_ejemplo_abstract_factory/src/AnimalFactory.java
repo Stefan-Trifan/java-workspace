@@ -2,7 +2,7 @@
 
 public class AnimalFactory
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public Animal crearAnimal(String tipo)
     {
         if (tipo.equalsIgnoreCase("perro"))

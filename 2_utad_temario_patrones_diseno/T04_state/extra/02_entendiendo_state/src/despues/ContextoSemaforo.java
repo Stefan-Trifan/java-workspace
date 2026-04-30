@@ -2,16 +2,16 @@ package despues;
 
 public class ContextoSemaforo
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private EstadoSemaforo miEstado;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ContextoSemaforo()
     {
         this.miEstado = new Rojo();
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public String verColor()
     {
         return miEstado.getColor();
@@ -22,7 +22,7 @@ public class ContextoSemaforo
         this.miEstado = estado;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public String mostrarEstado()
     {
         return miEstado.mostrarEstado();

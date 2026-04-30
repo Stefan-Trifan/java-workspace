@@ -2,22 +2,22 @@
 
 public class Calculadora
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private Operacion operacion;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Calculadora(Operacion operacion)
     {
         this.operacion = operacion;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setOperacion(Operacion operacion)
     {
         this.operacion = operacion;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public int calcular(int a, int b)
     {
         return operacion.ejecutar(a, b);

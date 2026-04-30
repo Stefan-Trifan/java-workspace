@@ -3,7 +3,7 @@ import java.time.temporal.ChronoUnit;
 
 public class Alquiler
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String    nombreCliente;
     private String    DNICliente;
     private LocalDate fechaInicio;
@@ -24,14 +24,14 @@ public class Alquiler
     }
 
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public double calcularAlquiler()
     {
         int numDias = (int) ChronoUnit.DAYS.between(fechaInicio, fechaFin) + 1;
 
         return numDias * miBarco.calcularModulo();
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

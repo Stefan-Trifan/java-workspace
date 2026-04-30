@@ -1,6 +1,6 @@
 public class CircleAreaStrategy implements Strategy
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     public double calcular(double valor)
     {

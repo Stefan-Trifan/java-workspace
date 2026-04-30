@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Numero implements Subject<Integer>
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private List<Observer<Integer>> observers;
     private Integer        valor;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Numero()
     {
         this(0);
@@ -27,7 +27,7 @@ public class Numero implements Subject<Integer>
         this.observers = observers;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public Integer getState()

@@ -2,28 +2,28 @@ package antes;
 
 public class Semaforo
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String color;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Semaforo()
     {
         this.color = "ROJO";
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public String getColor()
     {
         return color;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setColor(String color)
     {
         this.color = color;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void cambiar()
     {
         if (color.equals("ROJO"))

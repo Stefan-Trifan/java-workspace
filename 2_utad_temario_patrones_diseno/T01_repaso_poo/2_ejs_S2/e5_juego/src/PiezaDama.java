@@ -1,16 +1,16 @@
 public class PiezaDama extends PiezaDeJuego
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     @Override
     public void muestraFigura()
     {
         System.out.println("Mostrando Dama");
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
     public static void main(String[] args)
     {
         System.out.println("\n_______________________START\n");

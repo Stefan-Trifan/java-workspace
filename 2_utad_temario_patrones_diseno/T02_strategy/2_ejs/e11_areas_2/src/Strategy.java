@@ -1,5 +1,5 @@
 public interface Strategy
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double getArea();
 }

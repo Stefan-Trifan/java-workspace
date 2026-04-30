@@ -1,11 +1,11 @@
 package patron_template;
 public abstract class ComputerBuilder
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public final void buildComputer()
     {
         prepararPlacaBase();
@@ -43,5 +43,5 @@ public abstract class ComputerBuilder
         System.out.println("Listo");
 
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

@@ -1,7 +1,7 @@
 public class Tablet extends Computador
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     // _________________________________________
     // ___________________ Constructor Principal
@@ -20,7 +20,7 @@ public class Tablet extends Computador
     }
 
     // _________________________________________
-    // _________________________________ Getters
+    // --------------------------------- Getters
 
     public double getpesoGramos()
     {
@@ -28,10 +28,10 @@ public class Tablet extends Computador
     }
 
     // _________________________________________
-    // _________________________________ Setters
+    // --------------------------------- Setters
 
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     public String imprimirPesos()
     {
@@ -39,5 +39,5 @@ public class Tablet extends Computador
     }
 
     // _________________________________________
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

@@ -4,13 +4,13 @@ import java.util.concurrent.TimeUnit;
 
 public class TrafficLight
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private TrafficLightState actualLight;
     private TrafficLightState redLight   = new RedLightState();
     private TrafficLightState greenLight = new GreenLightState();
     private TrafficLightState amberLight = new AmberLightState();
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public TrafficLight(TrafficLightState trafficLightState)
     {
         this.actualLight = trafficLightState;
@@ -21,7 +21,7 @@ public class TrafficLight
         this.actualLight = redLight;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public TrafficLightState getTrafficLightState()
     {
         return this.actualLight;
@@ -42,13 +42,13 @@ public class TrafficLight
         return this.amberLight;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setTrafficLightState(TrafficLightState trafficLightState)
     {
         this.actualLight = trafficLightState;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void show()
     {
         this.actualLight.show(); // Delegación

@@ -6,7 +6,7 @@ import domain.notificationStrategy.RejectedNotification;
 
 public class StateAdmitted implements State
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public void cambiar(Loan loan)

@@ -1,6 +1,6 @@
 public abstract class GeometricFigure implements Figure
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String tag;
 
     // ___________________ Constructor Principal
@@ -10,25 +10,25 @@ public abstract class GeometricFigure implements Figure
     }
 
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public final String getTag()
     {
         return tag;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public final void setTag(String tag)
     {
         this.tag = tag;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public final String printDescription()
     {
         return "Tag: " + getTag()
             + "\nFigure Type: " + getFigureType()
             + "\nArea: " + area();
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 
 }

@@ -2,8 +2,8 @@
 
 public class ProcesadoEstadistico implements ProcesadoStrategy
 {
-    // _______________________________ Atributos
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // ------------------------ Métodos Públicos
     @Override
     public void procesarDatos()
     {

@@ -1,12 +1,12 @@
 package patron_template;
 public class AMDComputer extends ComputerBuilder
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String procesador;
     private int    ram;
     private int    almacenamiento;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public AMDComputer(String procesador, int ram, int almacenamiento)
     {
         this.procesador = procesador;
@@ -14,9 +14,9 @@ public class AMDComputer extends ComputerBuilder
         this.almacenamiento = almacenamiento;
     }
 
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     protected void addProcesador()
     {
         System.out.println("- AMD: Preparando Procesador " + procesador + " ...");
@@ -31,5 +31,5 @@ public class AMDComputer extends ComputerBuilder
     {
         System.out.println("- AMD: Preparando " + almacenamiento + " GB de HDD...");
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

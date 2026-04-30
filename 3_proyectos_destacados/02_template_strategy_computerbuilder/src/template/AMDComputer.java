@@ -5,10 +5,10 @@ import strategy.ComputerConfigurationStrategy;
 
 public class AMDComputer extends ComputerBuilder
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private AMDProcessor procesador;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public AMDComputer(
         ComputerConfigurationStrategy myStrategy,
         AMDProcessor procesador)
@@ -17,7 +17,7 @@ public class AMDComputer extends ComputerBuilder
         this.procesador = procesador;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     protected String addProcesador()
     {
         return "- AMD: Preparando Procesador "

@@ -1,6 +1,6 @@
 public class ElectricCar
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String marca;
     private String modelo;
     private String color;
@@ -16,9 +16,9 @@ public class ElectricCar
     }
 
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void encender()
     {
         mEngine.encender();
@@ -35,7 +35,7 @@ public class ElectricCar
         return marca + " " + modelo + " " + color;
     }
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
     public static void main(String[] args)
     {
         System.out.println("\n_______________________START\n");

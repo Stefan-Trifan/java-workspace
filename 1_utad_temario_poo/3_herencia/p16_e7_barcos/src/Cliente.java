@@ -1,11 +1,11 @@
 public class Cliente
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String nombre;
     private String dni;
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
-    // ________________________ Métodos Privados
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
+    // ------------------------ Métodos Privados
 }

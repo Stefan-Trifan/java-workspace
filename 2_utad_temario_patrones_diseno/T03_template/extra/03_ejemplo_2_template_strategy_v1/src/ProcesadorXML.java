@@ -2,12 +2,12 @@
 
 public class ProcesadorXML extends ProcesadorTemplate
 {
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ProcesadorXML(ProcesadoStrategy estrategia)
     {
         super(estrategia);
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     protected void leer()
     {

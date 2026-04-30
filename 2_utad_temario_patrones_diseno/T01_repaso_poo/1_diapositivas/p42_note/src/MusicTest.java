@@ -11,7 +11,7 @@ public class MusicTest
         System.out.println("\n_______________________END\n");
     }
     
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     static void tune(Instrument instrument)
     {
         instrument.play(Note.DO); // Delegación

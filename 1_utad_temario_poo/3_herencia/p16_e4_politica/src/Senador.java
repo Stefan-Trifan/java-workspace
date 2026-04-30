@@ -5,7 +5,7 @@ public class Senador extends Legislador
     {
         super(provinciaQueRepresenta, nombre, edad);
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public String getCamaraEnQueTrabaja()
     {
         return "Senado";

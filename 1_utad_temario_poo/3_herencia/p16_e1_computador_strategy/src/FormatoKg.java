@@ -3,7 +3,7 @@
 
 public class FormatoKg implements EstrategiaFormatoPeso
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public String devolverPeso(double peso)
     {
         return peso + " Kg";

@@ -1,7 +1,7 @@
 public class Carta
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     private int  numero; 
     private Palo palo;   
@@ -23,7 +23,7 @@ public class Carta
     // //_________________________________________
     // //________________ Constructores Auxiliares
     // _________________________________________
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public int getNumero()
     {
         return this.numero;
@@ -37,7 +37,7 @@ public class Carta
     // //_________________________________________
     // //_________________________________ Setters
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     public String toString()
     {

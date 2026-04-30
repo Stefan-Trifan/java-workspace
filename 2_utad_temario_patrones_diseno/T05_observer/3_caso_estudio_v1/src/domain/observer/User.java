@@ -6,12 +6,12 @@ import domain.notificationStrategy.NotifStrategy;
 
 public class User implements Observer
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     private NotifStrategy notifStrategy;
     private String        name;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
 
     public User(String name)
     {
@@ -19,25 +19,25 @@ public class User implements Observer
         this.name = name;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
 
     public String getName()
     {
         return name;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
 
     public void setNotifStrategy(NotifStrategy notifStrategy)
     {
         this.notifStrategy = notifStrategy;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public void update(Loan loan)
     {
         notifStrategy.notificar(loan);
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

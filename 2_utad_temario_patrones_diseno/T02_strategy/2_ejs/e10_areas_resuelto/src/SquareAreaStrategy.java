@@ -1,7 +1,7 @@
 public class SquareAreaStrategy implements AreaStrategy
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private double lado;
     // _________________________________________
     // ___________________ Constructor Principal
@@ -16,7 +16,7 @@ public class SquareAreaStrategy implements AreaStrategy
         this(0.0);
     }
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double calcArea()
     {
         return lado * lado;

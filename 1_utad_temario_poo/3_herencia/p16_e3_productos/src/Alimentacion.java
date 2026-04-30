@@ -2,7 +2,7 @@ import java.time.LocalDate;
 
 public class Alimentacion extends Producto
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     private LocalDate fechaCaducidad;
 
@@ -14,21 +14,21 @@ public class Alimentacion extends Producto
         this.fechaCaducidad = fechaCaducidad;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
 
     public LocalDate getFechaCaducidad()
     {
         return fechaCaducidad;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
 
     public void setFechaCaducidad(LocalDate fechaCaducidad)
     {
         this.fechaCaducidad = fechaCaducidad;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public String imprimirInfo()
@@ -49,6 +49,6 @@ public class Alimentacion extends Producto
         }
     }
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 
 }

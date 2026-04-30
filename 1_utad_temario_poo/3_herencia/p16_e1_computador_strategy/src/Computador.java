@@ -3,7 +3,7 @@
 public class Computador
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     private double        peso;
     private EstrategiaFormatoPeso miEstrategia;
@@ -25,7 +25,7 @@ public class Computador
     }
 
     // _________________________________________
-    // _________________________________ Getters
+    // --------------------------------- Getters
 
     public double getpeso()
     {
@@ -33,7 +33,7 @@ public class Computador
     }
 
     // _________________________________________
-    // _________________________________ Setters
+    // --------------------------------- Setters
 
     public void setpeso(double peso)
     {
@@ -41,7 +41,7 @@ public class Computador
     }
 
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     public void setEstrategia(EstrategiaFormatoPeso estrategia)
     {
@@ -54,5 +54,5 @@ public class Computador
     }
 
     // _________________________________________
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

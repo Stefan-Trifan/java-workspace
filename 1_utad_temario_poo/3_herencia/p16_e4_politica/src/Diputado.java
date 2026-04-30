@@ -5,7 +5,7 @@ public class Diputado extends Legislador
     {
         super(provinciaQueRepresenta, nombre, edad);
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public String getCamaraEnQueTrabaja()
     {
         return "Congreso de los Diputados";

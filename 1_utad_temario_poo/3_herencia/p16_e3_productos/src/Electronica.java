@@ -1,7 +1,7 @@
 
 public class Electronica extends Producto
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     private int garantia;
 
@@ -13,21 +13,21 @@ public class Electronica extends Producto
         this.garantia = garantia;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
 
     public int getGarantia()
     {
         return garantia;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
 
     public void setGarantia(int garantia)
     {
         this.garantia = garantia;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public String imprimirInfo()
@@ -40,5 +40,5 @@ public class Electronica extends Producto
         return "Garantia " + garantia;
     }
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

@@ -1,27 +1,27 @@
 public class Context
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private Strategy miAreaStrategy;
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Context(Strategy miAreaStrategy)
     {
         this.miAreaStrategy = miAreaStrategy;
     }
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public Strategy getMiAreaStrategy()
     {
         return miAreaStrategy;
     }
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setMiAreaStrategy(Strategy miAreaStrategy)
     {
         this.miAreaStrategy = miAreaStrategy;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double calcularArea(double valor)
     {
         return miAreaStrategy.calcular(valor);
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 
 }

@@ -1,7 +1,7 @@
 public class MusicTest
 {
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     static void tuneAll(Instrument[] instruments)
     {

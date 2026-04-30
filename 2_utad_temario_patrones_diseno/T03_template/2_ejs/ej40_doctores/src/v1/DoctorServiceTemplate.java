@@ -1,11 +1,11 @@
 package v1;
 public abstract class DoctorServiceTemplate
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void atender()
     {
         imprimirDia();
@@ -22,5 +22,5 @@ public abstract class DoctorServiceTemplate
 
     protected abstract void enviarResultado();
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

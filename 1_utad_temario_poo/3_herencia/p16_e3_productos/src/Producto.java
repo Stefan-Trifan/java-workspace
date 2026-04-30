@@ -1,6 +1,6 @@
 public class Producto
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String nombre;
     private int    precio;
     private int    codigoBarras;
@@ -13,7 +13,7 @@ public class Producto
         this.codigoBarras = codigoBarras;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public String getNombre()
     {
         return nombre;
@@ -29,7 +29,7 @@ public class Producto
         return codigoBarras;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setNombre(String nombre)
     {
         this.nombre = nombre;
@@ -45,7 +45,7 @@ public class Producto
         this.codigoBarras = codigoBarras;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     public String imprimirInfo()
     {
@@ -55,5 +55,5 @@ public class Producto
                "codigoBarras: " + codigoBarras; // @on
     }
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

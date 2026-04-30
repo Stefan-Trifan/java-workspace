@@ -1,10 +1,10 @@
 public class ProcesadorTemplate
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private LeerStrategy     estrategiaLeer;
     private ProcesarStrategy estrategiaProcesar;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ProcesadorTemplate(
         LeerStrategy estrategiaLeer,
         ProcesarStrategy estrategiaProcesar)
@@ -13,7 +13,7 @@ public class ProcesadorTemplate
         this.estrategiaProcesar = estrategiaProcesar;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setEstrategiaLeer(LeerStrategy estrategiaLeer)
     {
         this.estrategiaLeer = estrategiaLeer;
@@ -24,7 +24,7 @@ public class ProcesadorTemplate
         this.estrategiaProcesar = estrategiaProcesar;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public final void procesar()
     {
         abrir();

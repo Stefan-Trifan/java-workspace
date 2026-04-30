@@ -1,6 +1,6 @@
 public class ElectricCar
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private Engine motor;
 
     // ___________________ Constructor Principal
@@ -10,9 +10,9 @@ public class ElectricCar
     }
 
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public String encender()
     {
         return motor.encender();
@@ -21,5 +21,5 @@ public class ElectricCar
     {
         return "avanzando";
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

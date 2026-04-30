@@ -1,10 +1,10 @@
 public class Wind implements Instrument
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void play(Note note)
     {
         System.out.println("Wind play " + note);
@@ -13,5 +13,5 @@ public class Wind implements Instrument
     {
         return "Wind";
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

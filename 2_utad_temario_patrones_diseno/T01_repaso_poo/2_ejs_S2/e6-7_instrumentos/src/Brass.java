@@ -1,10 +1,10 @@
 public class Brass extends Wind implements ElectricSound
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void play(Note note)
     {
         System.out.println("Wind Brass play " + note);
@@ -14,5 +14,5 @@ public class Brass extends Wind implements ElectricSound
     {
         System.out.println("ElectricSound Brass play " + n);
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

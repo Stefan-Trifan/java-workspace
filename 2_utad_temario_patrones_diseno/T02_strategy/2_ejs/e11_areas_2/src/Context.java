@@ -1,15 +1,15 @@
 public class Context
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     Strategy mStrategy;>0
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Context(Strategy mStrategy)
     {
         this.mStrategy = mStrategy;
     }
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public double getArea()
     {
         return mStrategy.getArea();
@@ -18,6 +18,6 @@ public class Context
     {
         return mStrategy.toString();
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 
 }

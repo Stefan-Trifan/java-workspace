@@ -5,10 +5,10 @@ import patron_template_strategy.strategy.ComputerConfigurationStrategy;
 
 public class IntelComputer extends ComputerBuilder
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private IntelProcessor procesador;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public IntelComputer(
         ComputerConfigurationStrategy myStrategy,
         IntelProcessor procesador)
@@ -17,7 +17,7 @@ public class IntelComputer extends ComputerBuilder
         this.procesador = procesador;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     protected String addProcesador()
     {
         return "- Intel: Preparando Procesador "

@@ -1,18 +1,22 @@
 public class QuickSoup
 {
-    // constructor privado
+    // ------------------------------- Atributos
+    private static QuickSoup instance = new QuickSoup();
+    // --------------------------- Constructores
     private QuickSoup()
     {
-    }
-
-    // getInstance
-    public static QuickSoup makeSoup()
+    };
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
+    public static QuickSoup getInstance()
     {
-        return new QuickSoup();
+        return instance;
     }
-
     public void ready()
     {
         System.out.println("QuickSoup is ready");
     }
+    // ------------------------ Métodos Privados
+
 }

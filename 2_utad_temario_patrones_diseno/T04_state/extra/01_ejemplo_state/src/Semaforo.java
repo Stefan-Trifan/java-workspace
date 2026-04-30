@@ -2,22 +2,22 @@
 
 public class Semaforo
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private EstadoSemaforo estado;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Semaforo()
     {
         estado = new Rojo(); // estado inicial
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setEstado(EstadoSemaforo estado)
     {
         this.estado = estado;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void cambiar()
     {
         estado.cambiar(this);

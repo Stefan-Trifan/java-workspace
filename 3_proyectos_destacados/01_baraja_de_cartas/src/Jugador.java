@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Jugador
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private ArrayList<Carta> misCartas;  
     private String nombre;
     private int rondasGanadas;
@@ -17,7 +17,7 @@ public class Jugador
     // _________________________________________
     // ________________ Constructores Auxiliares
     // _________________________________________
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public int getRondasGanadas()
     {
         return rondasGanadas; 
@@ -27,13 +27,13 @@ public class Jugador
         return nombre; 
     }
     // _________________________________________
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setNombre(String nombre)
     {
         this.nombre = nombre;
     }
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void addCarta(Carta carta)
     {
         misCartas.add(carta);
@@ -49,5 +49,5 @@ public class Jugador
         rondasGanadas++;
     }
     // _________________________________________
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

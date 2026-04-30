@@ -5,7 +5,7 @@ import domain.notificationStrategy.IllegalOpNotification;
 
 public class StateRejected implements State
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public void cambiar(Loan loan)

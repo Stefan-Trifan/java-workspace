@@ -4,7 +4,7 @@ import editor.TextFormatterStrategy;
 
 public class EchoFormatterStrategy implements TextFormatterStrategy
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     public void format(String text)
     {

@@ -1,6 +1,6 @@
 public class Car
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String marca;
     private String modelo;
     private String color;
@@ -16,9 +16,9 @@ public class Car
     }
 
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void encender()
     {
         mEngine.encender();

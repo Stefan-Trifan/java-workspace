@@ -8,15 +8,12 @@ import domain.stateLoan.StateCreated;
 
 public class Loan
 {
-    // _______________________________ Atributos
-
+    // ------------------------------- Atributos
     private User      user;
     private Book      book;
     private State     state;
     private LocalDate date;
-
-    // ___________________________ Constructores
-
+    // --------------------------- Constructores
     public Loan(User user, Book book)
     {
         this.user = user;
@@ -25,52 +22,41 @@ public class Loan
         this.state = new StateCreated();
         notifyObservers();
     }
-    // _________________________________ Getters
-
+    // --------------------------------- Getters
     public LocalDate getDate()
     {
         return date;
     }
-
     public User getUser()
     {
         return user;
     }
-
     public Book getBook()
     {
         return book;
     }
-
     public State getState()
     {
         return state;
     }
-
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
-
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void processLoan()
     {
         state.cambiar(this);
     }
-
     public void rejectLoan()
     {
         state.reject(this);
     }
-
     public void setState(State state)
     {
         this.state = state;
         notifyObservers();
     }
-
     public void notifyObservers()
     {
         user.update(this);
     }
-
-    // ________________________ Métodos Privados
-
+    // ------------------------ Métodos Privados
 }

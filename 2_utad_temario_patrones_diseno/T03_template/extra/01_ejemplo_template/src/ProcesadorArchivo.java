@@ -2,7 +2,7 @@
 
 public abstract class ProcesadorArchivo
 {
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     // TEMPLATE METHOD
     public final void procesar()
     {
@@ -11,7 +11,7 @@ public abstract class ProcesadorArchivo
         cerrarArchivo();
     }
     
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
     private void abrirArchivo()
     {
         System.out.println("Abriendo elemento...");

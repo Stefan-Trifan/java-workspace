@@ -14,7 +14,7 @@ public abstract class ComputerBuilder
         this.myStrategy = myStrategy;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public final String buildComputer()
     {
         return prepararPlacaBase() + "\n"

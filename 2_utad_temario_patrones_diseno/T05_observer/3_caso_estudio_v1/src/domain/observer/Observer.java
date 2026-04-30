@@ -4,6 +4,6 @@ import domain.Loan;
 
 public interface Observer
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void update(Loan loan);
 }

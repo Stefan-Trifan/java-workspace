@@ -1,6 +1,6 @@
 public class Barco
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String matricula;
     private double eslora;
     private int    anoFabricacion;
@@ -12,12 +12,12 @@ public class Barco
         this.anoFabricacion = anoFabricacion;
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public double calcularModulo()
     {
         return eslora * 10;
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

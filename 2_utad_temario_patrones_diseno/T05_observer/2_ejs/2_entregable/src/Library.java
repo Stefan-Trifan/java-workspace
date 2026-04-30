@@ -1,20 +1,20 @@
 public class Library
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private BookAlarm bookAlarm;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Library()
     {
         this.bookAlarm = new BookAlarm();
     }
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public BookAlarm getBookAlarm()
     {
         return bookAlarm;
     }
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void returnBook(Book book)
     {
         if (book.getEstado() == BookState.BAD)
@@ -23,5 +23,5 @@ public class Library
             bookAlarm.notifyObservers();
         }
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

@@ -1,7 +1,7 @@
 package v2;
 public class DrWang extends DoctorServiceTemplate
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void imprimirDia()
     {
         System.out.println("dia 15");

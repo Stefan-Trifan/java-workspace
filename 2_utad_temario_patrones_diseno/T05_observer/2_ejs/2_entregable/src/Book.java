@@ -1,11 +1,11 @@
 public class Book
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String    nombre;
     private String    autor;
     private BookState estado;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Book(String nombre, String autor, BookState estado)
     {
         this.nombre = nombre;
@@ -13,18 +13,18 @@ public class Book
         this.estado = estado;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public BookState getEstado()
     {
         return estado;
     }
 
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     @Override
     public String toString()
     {
         return "nombre: " + this.nombre + "| autor: " + this.autor;
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

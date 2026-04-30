@@ -1,6 +1,6 @@
 public class EdificioOficinas implements Edificio
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     double numOficinas;
     double superficie;
     // ___________________ Constructor Principal
@@ -10,9 +10,9 @@ public class EdificioOficinas implements Edificio
         this.numOficinas = numOficinas;
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public double getSuperficieEdificio()
     {
         return this.superficie;

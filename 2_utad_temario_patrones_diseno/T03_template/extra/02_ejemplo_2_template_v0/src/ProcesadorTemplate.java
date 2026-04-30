@@ -1,10 +1,10 @@
 public abstract class ProcesadorTemplate
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public final void procesar()
     {
         abrir();
@@ -32,5 +32,5 @@ public abstract class ProcesadorTemplate
 
     protected abstract void procesarDatos();
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

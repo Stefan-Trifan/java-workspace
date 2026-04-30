@@ -5,9 +5,10 @@ public class LunchSoupTest
     {
         System.out.println("\n_______________________START\n");
 
-        QuickSoup quickSoup = QuickSoup.makeSoup();
+        QuickSoup quickSoup = QuickSoup.getInstance();
         quickSoup.ready();
-        QuickSoup quickSoup2 = QuickSoup.makeSoup();
+
+        QuickSoup quickSoup2 = QuickSoup.getInstance();
         quickSoup2.ready();
 
         System.out.println("\n_______________________END\n");

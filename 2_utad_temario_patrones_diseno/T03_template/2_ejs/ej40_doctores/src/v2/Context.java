@@ -1,27 +1,27 @@
 package v2;
 public class Context
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     Strategy myStrategy;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Context(Strategy myStrategy)
     {
         this.myStrategy = myStrategy;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setStrategy(Strategy myStrategy)
     {
         this.myStrategy = myStrategy;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void atender()
     {
         myStrategy.atender();
     }
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 
 }

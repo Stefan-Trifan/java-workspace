@@ -4,7 +4,7 @@ import domain.Loan;
 
 public class PickedUpNotification implements NotifStrategy
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     public void notificar(Loan loan)
     {

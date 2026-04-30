@@ -1,10 +1,10 @@
 public class Stringed implements Instrument, ElectricSound
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void play(Note note)
     {
         System.out.println("Stringed play" + note);
@@ -17,5 +17,5 @@ public class Stringed implements Instrument, ElectricSound
     {
         System.out.println("ElectricSound Stringed play " + n);
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

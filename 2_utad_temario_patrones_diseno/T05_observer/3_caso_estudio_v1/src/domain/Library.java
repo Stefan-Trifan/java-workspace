@@ -9,12 +9,12 @@ import domain.stateLoan.StateReturned;
 
 public class Library
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private List<Loan> listaPrestamos;
     private Scanner    sc;
     private int        contadorPrestamos;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Library()
     {
         listaPrestamos = new ArrayList<>();
@@ -22,9 +22,9 @@ public class Library
         contadorPrestamos = 0;
     }
 
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void crearPrestamo()
     {
         System.out.printf("Introduce nombre ususario:\n-> ");
@@ -105,5 +105,5 @@ public class Library
                     + loan.getBook().getAutor());
         }
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

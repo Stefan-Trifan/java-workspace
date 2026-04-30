@@ -7,7 +7,7 @@ import domain.notificationStrategy.RejectedNotification;
 public class StateCreated implements State
 {
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public void cambiar(Loan loan)

@@ -1,11 +1,11 @@
 package v2;
 public abstract class DoctorServiceTemplate implements Strategy
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public final void atender()
     {
         imprimirDia();
@@ -22,5 +22,5 @@ public abstract class DoctorServiceTemplate implements Strategy
 
     protected abstract void enviarResultado();
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

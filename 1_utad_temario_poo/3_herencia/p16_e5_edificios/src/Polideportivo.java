@@ -1,6 +1,6 @@
 public class Polideportivo implements InstalacionDeportiva, Edificio
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     double superficie;
     String tipo;
     // ___________________ Constructor Principal
@@ -10,9 +10,9 @@ public class Polideportivo implements InstalacionDeportiva, Edificio
         this.tipo = tipo;
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public double getSuperficieEdificio()
     {
         return this.superficie;

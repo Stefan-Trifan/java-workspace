@@ -1,10 +1,10 @@
 public class ProcesadorPDFSimple extends ProcesadorTemplate
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
 
     @Override
     protected void leer()
@@ -17,5 +17,5 @@ public class ProcesadorPDFSimple extends ProcesadorTemplate
     {
         System.out.println("- Subclase: Procesando datos PDF");
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

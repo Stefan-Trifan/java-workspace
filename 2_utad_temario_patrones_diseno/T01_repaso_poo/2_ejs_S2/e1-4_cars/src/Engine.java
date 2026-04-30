@@ -1,6 +1,6 @@
 public class Engine
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String tipo;
 
     // ___________________ Constructor Principal
@@ -14,9 +14,9 @@ public class Engine
     {
         this("Default");
     }
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void encender()
     {
         System.out.println(tipo + " encendido!");
@@ -28,7 +28,7 @@ public class Engine
         return "Engine" + tipo;
     }
 
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
     public static void main(String[] args)
     {
         System.out.println("\n_______________________START\n");

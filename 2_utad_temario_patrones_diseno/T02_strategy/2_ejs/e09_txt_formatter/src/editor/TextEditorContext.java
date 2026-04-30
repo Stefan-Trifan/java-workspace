@@ -5,7 +5,7 @@ import editor.estrategiasconcretas.EchoFormatterStrategy;
 
 public class TextEditorContext
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private TextFormatterStrategy textFormatterStrategy;
 
     // ___________________ Constructor Principal
@@ -18,19 +18,19 @@ public class TextEditorContext
         this(new EchoFormatterStrategy());
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public TextFormatterStrategy getTextFormatterStrategy()
     {
         return this.textFormatterStrategy;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setTextFormatterStrategy(TextFormatterStrategy textFormatterStrategy)
     {
         this.textFormatterStrategy = textFormatterStrategy;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void format(String text)
     {
         // Delegación por composición

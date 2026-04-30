@@ -1,6 +1,6 @@
 public abstract class Instrument
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public abstract void play(Note n);
 
     public String what()

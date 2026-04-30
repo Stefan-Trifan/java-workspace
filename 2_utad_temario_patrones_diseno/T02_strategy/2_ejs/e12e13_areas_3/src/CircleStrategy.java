@@ -1,16 +1,16 @@
 public class CircleStrategy implements Strategy
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private double valor;
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public CircleStrategy(double valor)
     {
         this.valor = valor;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double getArea()
     {
         return Math.PI * Math.pow(valor, 2);
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

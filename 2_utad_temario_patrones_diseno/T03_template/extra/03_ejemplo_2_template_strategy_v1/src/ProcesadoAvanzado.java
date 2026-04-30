@@ -2,8 +2,8 @@
 
 public class ProcesadoAvanzado implements ProcesadoStrategy
 {
-    // _______________________________ Atributos
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // ------------------------ Métodos Públicos
     @Override
     public void procesarDatos()
     {

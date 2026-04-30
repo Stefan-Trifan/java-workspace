@@ -1,6 +1,6 @@
 public abstract class Legislador
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private String provinciaQueRepresenta;
     private String nombre;
     private int edad;
@@ -11,6 +11,6 @@ public abstract class Legislador
         this.nombre = nombre;
         this.edad = edad;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public abstract String getCamaraEnQueTrabaja();
 }

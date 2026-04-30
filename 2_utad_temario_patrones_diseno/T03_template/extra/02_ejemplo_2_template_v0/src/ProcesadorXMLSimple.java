@@ -1,10 +1,10 @@
 public class ProcesadorXMLSimple extends ProcesadorTemplate
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
 
     @Override
     protected void leer()
@@ -17,5 +17,5 @@ public class ProcesadorXMLSimple extends ProcesadorTemplate
     {
         System.out.println("- Subclase: Procesando datos XML");
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

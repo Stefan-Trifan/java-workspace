@@ -18,9 +18,9 @@ public class MetodosGenericos
 
 class MisMatrices
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
     public static <T extends Comparable> T getMenor(T[] a)
     {
         if (a == null || a.length == 0)
@@ -41,7 +41,7 @@ class MisMatrices
         return elementoMenor;
 
     }
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
-    // ________________________ Métodos Privados
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
+    // ------------------------ Métodos Privados
 }

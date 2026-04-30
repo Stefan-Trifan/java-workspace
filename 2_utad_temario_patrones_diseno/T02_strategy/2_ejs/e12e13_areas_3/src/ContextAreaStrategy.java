@@ -1,13 +1,13 @@
 public class ContextAreaStrategy
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     Strategy mStrategy;
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ContextAreaStrategy(Strategy mStrategy)
     {
         this.mStrategy = mStrategy;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double getArea()
     {
         return mStrategy.getArea();

@@ -1,6 +1,6 @@
 public class Velero extends Barco
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private int numeroMastiles;
     // ___________________ Constructor Principal
     public Velero(
@@ -13,13 +13,13 @@ public class Velero extends Barco
         this.numeroMastiles = numeroMastiles;
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     @Override
     public double calcularModulo()
     {
         return super.calcularModulo() + numeroMastiles;
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

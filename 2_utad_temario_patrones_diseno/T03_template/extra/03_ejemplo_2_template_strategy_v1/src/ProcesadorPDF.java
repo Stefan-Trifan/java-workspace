@@ -2,12 +2,12 @@
 
 public class ProcesadorPDF extends ProcesadorTemplate
 {
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ProcesadorPDF(ProcesadoStrategy estrategia)
     {
         super(estrategia);
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     protected void leer()
     {

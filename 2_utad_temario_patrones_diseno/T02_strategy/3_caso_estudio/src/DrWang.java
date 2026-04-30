@@ -1,6 +1,6 @@
 public class DrWang implements Strategy
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void examinar()
     {
         System.out.println("dia 15");

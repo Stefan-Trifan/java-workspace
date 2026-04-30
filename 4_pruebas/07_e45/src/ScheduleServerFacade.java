@@ -1,16 +1,16 @@
 public class ScheduleServerFacade
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private ScheduleServer server;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ScheduleServerFacade(ScheduleServer server)
     {
         this.server = server;
     }
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     public void startServer()
     {
         server.startBooting();
@@ -30,5 +30,5 @@ public class ScheduleServerFacade
         server.destroyContext();
         server.shutdown();
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

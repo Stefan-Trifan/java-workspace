@@ -2,10 +2,10 @@ package despues;
 
 public interface EstadoSemaforo
 {
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public String getColor();
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public String mostrarEstado();
 
     public boolean puedenPasarCoches();

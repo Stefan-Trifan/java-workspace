@@ -1,6 +1,6 @@
 public class EmbarcacionesDeportivas extends Barco
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private int potenciaCV;
     // ___________________ Constructor Principal
     public EmbarcacionesDeportivas(
@@ -13,13 +13,13 @@ public class EmbarcacionesDeportivas extends Barco
         this.potenciaCV = potenciaCV;
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     @Override
     public double calcularModulo()
     {
         return super.calcularModulo() + potenciaCV;
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

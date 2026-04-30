@@ -1,6 +1,6 @@
 public class ProcesadoSimple implements ProcesarStrategy
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     public void procesarDatos()
     {

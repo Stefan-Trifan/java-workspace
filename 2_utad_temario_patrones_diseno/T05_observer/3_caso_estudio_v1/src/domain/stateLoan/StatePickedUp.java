@@ -6,7 +6,7 @@ import domain.notificationStrategy.ReturnedNotification;
 
 public class StatePickedUp implements State
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public void cambiar(Loan loan)

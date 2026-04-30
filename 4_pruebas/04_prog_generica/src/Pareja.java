@@ -1,26 +1,26 @@
 public class Pareja<T>
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private T primero;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Pareja()
     {
         primero = null;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public T getPrimero()
     {
         return primero;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setPrimero(T nuevoValor)
     {
         primero = nuevoValor;
     }
 
-    // ________________________ Métodos Públicos
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Públicos
+    // ------------------------ Métodos Privados
 }

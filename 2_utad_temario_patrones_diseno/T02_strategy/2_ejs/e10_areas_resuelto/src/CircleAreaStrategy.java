@@ -1,7 +1,7 @@
 public class CircleAreaStrategy implements AreaStrategy
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private double radio;
     // _________________________________________
     // ___________________ Constructor Principal
@@ -15,9 +15,9 @@ public class CircleAreaStrategy implements AreaStrategy
     {
         this(0.0);
     }
-    // _________________________________ Setters
+    // --------------------------------- Setters
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double calcArea()
     {
         return Math.PI * Math.pow(radio, 2);

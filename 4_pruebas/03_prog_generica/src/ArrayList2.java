@@ -2,17 +2,17 @@ import java.io.*;
 
 public class ArrayList2
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private Object[] datosElemento;
     private int      i = 0;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public ArrayList2(int z)
     {
         datosElemento = new Object[z];
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public Object get(int i)
     {
         return datosElemento[i];

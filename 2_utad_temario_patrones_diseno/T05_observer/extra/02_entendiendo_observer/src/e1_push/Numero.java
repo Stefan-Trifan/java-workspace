@@ -3,13 +3,13 @@ import java.util.*;
 
 class NumSubject
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private int                 valor;
     private List<Observer> myObservers = new ArrayList<>();
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void addObserver(Observer...newObservers)
     {
         for (Observer o : newObservers)
@@ -34,14 +34,14 @@ class NumSubject
         }
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setValor(int valor)
     {
         this.valor = valor;
         notifyObservers();
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public int getValor()
     {
         return valor;

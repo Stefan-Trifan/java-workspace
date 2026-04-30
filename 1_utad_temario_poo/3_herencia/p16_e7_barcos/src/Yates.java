@@ -1,6 +1,6 @@
 public class Yates extends Barco
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private int potenciaCV;
     private int numCamarotes;
     // ___________________ Constructor Principal
@@ -16,13 +16,13 @@ public class Yates extends Barco
         this.numCamarotes = numCamarotes;
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     @Override
     public double calcularModulo()
     {
         return super.calcularModulo() + potenciaCV + numCamarotes;
     }
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

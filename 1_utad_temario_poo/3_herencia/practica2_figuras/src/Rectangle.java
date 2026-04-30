@@ -1,6 +1,6 @@
 public class Rectangle extends GeometricFigure
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private int base;
     private int altura;
 
@@ -13,7 +13,7 @@ public class Rectangle extends GeometricFigure
     }
 
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public int getBase()
     {
         return base;
@@ -24,7 +24,7 @@ public class Rectangle extends GeometricFigure
         return altura;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setBase(int base)
     {
         this.base = base;
@@ -35,7 +35,7 @@ public class Rectangle extends GeometricFigure
         this.altura = altura;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public String getFigureType()
     {
         return "Rectangle";
@@ -57,5 +57,5 @@ public class Rectangle extends GeometricFigure
             System.out.println();
         }
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

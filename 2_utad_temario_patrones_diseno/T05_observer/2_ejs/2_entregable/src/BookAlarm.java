@@ -3,23 +3,23 @@ import java.util.List;
 
 public class BookAlarm implements Observable
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private List<Observer> myObservers = new ArrayList<>();
     private Book           book;
 
-    // ___________________________ Constructores
-    // _________________________________ Getters
+    // --------------------------- Constructores
+    // --------------------------------- Getters
     public Book getBook()
     {
         return book;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setBook(Book book)
     {
         this.book = book;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public void attach(Observer... newObservers)
@@ -44,5 +44,5 @@ public class BookAlarm implements Observable
             o.update(this, this.book);
         }
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

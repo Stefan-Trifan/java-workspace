@@ -1,16 +1,16 @@
 public class HerencyElectricCar extends Car
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     // ___________________ Constructor Principal
     public HerencyElectricCar(String marca, String modelo, String color)
     {
         super(marca, modelo, color, new Engine());
     }
     // ________________ Constructores Auxiliares
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
-    // ________________________ Métodos Privados 
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
+    // ------------------------ Métodos Privados 
     public static void main(String[] args)
     {
         System.out.println("\n_______________________START\n");

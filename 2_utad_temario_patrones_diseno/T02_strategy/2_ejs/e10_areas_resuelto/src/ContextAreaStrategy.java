@@ -1,7 +1,7 @@
 public class ContextAreaStrategy
 {
     // _________________________________________
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     AreaStrategy estrategia;
     // _________________________________________
     // ___________________ Constructor Principal
@@ -10,7 +10,7 @@ public class ContextAreaStrategy
         this.estrategia = estrategia;
     }
     // _________________________________________
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double calcularArea()
     {
         return estrategia.calcArea();

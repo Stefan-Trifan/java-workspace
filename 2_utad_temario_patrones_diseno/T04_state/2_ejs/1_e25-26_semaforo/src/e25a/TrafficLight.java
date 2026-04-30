@@ -1,28 +1,28 @@
 package e25a;
 public class TrafficLight
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private TrafficLightState trafficLightState;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public TrafficLight(TrafficLightState trafficLightState)
     {
         this.trafficLightState = trafficLightState;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public TrafficLightState getTrafficLightState()
     {
         return this.trafficLightState;
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setTrafficLightState(TrafficLightState trafficLightState)
     {
         this.trafficLightState = trafficLightState;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void cambiar()
     {
         trafficLightState.cambiar(this);

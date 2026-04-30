@@ -1,6 +1,6 @@
 public class Wind implements Instrument
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public void play(Note n)

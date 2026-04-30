@@ -2,12 +2,12 @@ package domain;
 
 public class Book
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
 
     private String titulo;
     private String autor;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
 
     public Book(String titulo, String autor)
     {
@@ -15,7 +15,7 @@ public class Book
         this.autor = autor;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
 
     public String getTitulo()
     {
@@ -26,7 +26,7 @@ public class Book
     {
         return autor;
     }
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
-    // ________________________ Métodos Privados
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
+    // ------------------------ Métodos Privados
 }

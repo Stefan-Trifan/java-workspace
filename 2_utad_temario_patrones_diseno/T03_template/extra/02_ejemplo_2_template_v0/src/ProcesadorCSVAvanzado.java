@@ -1,10 +1,10 @@
 public class ProcesadorCSVAvanzado extends ProcesadorTemplate
 {
-    // _______________________________ Atributos
-    // ___________________________ Constructores
-    // _________________________________ Getters
-    // _________________________________ Setters
-    // ________________________ Métodos Públicos
+    // ------------------------------- Atributos
+    // --------------------------- Constructores
+    // --------------------------------- Getters
+    // --------------------------------- Setters
+    // ------------------------ Métodos Públicos
     @Override
     protected void leer()
     {
@@ -16,5 +16,5 @@ public class ProcesadorCSVAvanzado extends ProcesadorTemplate
     {
         System.out.println("- Subclase CSV Avanzado: Procesando datos");
     }
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
 }

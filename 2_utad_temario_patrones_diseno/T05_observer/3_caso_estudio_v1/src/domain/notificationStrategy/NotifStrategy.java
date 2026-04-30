@@ -4,6 +4,6 @@ import domain.Loan;
 
 public interface NotifStrategy
 {
-    // ________________________ Métodos Privados
+    // ------------------------ Métodos Privados
     public void notificar(Loan loan);
 }

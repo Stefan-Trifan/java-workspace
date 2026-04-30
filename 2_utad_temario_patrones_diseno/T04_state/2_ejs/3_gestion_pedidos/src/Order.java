@@ -2,7 +2,7 @@
 
 public class Order
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private OrderState actualState;
     private OrderState pendingState          = new PendingState();
     private OrderState preparingState        = new PreparingState();
@@ -10,7 +10,7 @@ public class Order
     private OrderState deliveringState       = new DeliveringState();
     private OrderState deliveredState        = new DeliveredState();
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Order(OrderState state)
     {
         this.actualState = state;
@@ -21,7 +21,7 @@ public class Order
         this.actualState = pendingState;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public void procesarPedido()
     {
         confirmOrder();
@@ -56,13 +56,13 @@ public class Order
         actualState.backToPreviousState(this);
     }
 
-    // _________________________________ Setters
+    // --------------------------------- Setters
     public void setState(OrderState state)
     {
         this.actualState = state;
     }
 
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public OrderState getPendingState()
     {
         return pendingState;

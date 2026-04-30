@@ -1,6 +1,6 @@
 public class ProcesadorCSV implements LeerStrategy
 {
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     @Override
     public void leerDatos()
     {

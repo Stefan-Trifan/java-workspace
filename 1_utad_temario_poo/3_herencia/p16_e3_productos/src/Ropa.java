@@ -2,7 +2,7 @@
 
 public class Ropa extends Producto
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     
     private int talla;
     
@@ -14,21 +14,21 @@ public class Ropa extends Producto
         this.talla = talla;
     }
     
-    // _________________________________ Getters
+    // --------------------------------- Getters
     
     public int getTalla()
     {
         return talla;
     }
     
-    // _________________________________ Setters
+    // --------------------------------- Setters
     
     public void setTalla(int talla)
     {
         this.talla = talla;
     }
     
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
 
     @Override
     public String imprimirInfo()
@@ -41,5 +41,5 @@ public class Ropa extends Producto
         return "Talla " + talla;
     }
     
-    // ________________________ Métodos Privados 
+    // ------------------------ Métodos Privados 
 }

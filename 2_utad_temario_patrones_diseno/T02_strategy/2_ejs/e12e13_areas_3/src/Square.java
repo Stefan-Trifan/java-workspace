@@ -1,9 +1,9 @@
 public class Square
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private double side;
     private double area;
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public Square(double side)
     {
         this.side = side;
@@ -15,12 +15,12 @@ public class Square
     {
         this(0.0);
     }
-    // _________________________________ Getters
+    // --------------------------------- Getters
     public double getSide()
     {
         return side;
     }
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     public double getArea()
     {
         return area;

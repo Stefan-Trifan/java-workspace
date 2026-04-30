@@ -5,10 +5,10 @@ import strategy.ComputerConfigurationStrategy;
 
 public class AppleComputer extends ComputerBuilder
 {
-    // _______________________________ Atributos
+    // ------------------------------- Atributos
     private AppleProcessor procesador;
 
-    // ___________________________ Constructores
+    // --------------------------- Constructores
     public AppleComputer(
         ComputerConfigurationStrategy myStrategy,
         AppleProcessor procesador)
@@ -17,7 +17,7 @@ public class AppleComputer extends ComputerBuilder
         this.procesador = procesador;
     }
 
-    // ________________________ Métodos Públicos
+    // ------------------------ Métodos Públicos
     protected String addProcesador()
     {
         return "- Apple: Preparando Procesador "
