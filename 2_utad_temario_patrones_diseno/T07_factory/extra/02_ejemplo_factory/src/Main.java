@@ -4,9 +4,8 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        String tipo = "ransomware"; // viene del usuario
-
-        Malware malware = MalwareFactory.createMalware(tipo);
+        MalwareCreator creator = new RansomwareCreator();
+        Malware malware = creator.createMalware();
 
         malware.ejecutar();
 
