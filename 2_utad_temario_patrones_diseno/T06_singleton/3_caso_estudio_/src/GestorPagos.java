@@ -8,11 +8,11 @@ public class GestorPagos
     {
     };
     // --------------------------------- Getters
-    public void setPagarStrategy(PagarStrategy pagarStrategy)
+    // --------------------------------- Setters
+    public void setMetodoPago(PagarStrategy pagarStrategy)
     {
         this.pagarStrategy = pagarStrategy;
     }
-    // --------------------------------- Setters
     // ------------------------ Métodos Públicos
     public static GestorPagos getInstance()
     {
@@ -20,7 +20,14 @@ public class GestorPagos
     }
     public void pay()
     {
-        pagarStrategy.pagar();
+        if (pagarStrategy != null)
+        {
+            pagarStrategy.pagar();
+        }
+        else
+        {
+            System.out.println("Introduce metodo de pago, por favor antes");
+        }
     }
     // ------------------------ Métodos Privados
 }
