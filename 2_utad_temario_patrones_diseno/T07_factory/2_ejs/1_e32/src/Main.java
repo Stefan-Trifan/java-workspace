@@ -18,10 +18,6 @@ public class Main
         // todo y Cats y la proporción de cada uno
         int numDogs = 0;
         int numCats = 0;
-        for (Animal d : animals)
-        {
-
-        }
         for (Animal c : animals)
         {
             if (c instanceof Cat)
