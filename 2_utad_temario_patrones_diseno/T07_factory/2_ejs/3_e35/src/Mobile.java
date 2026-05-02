@@ -1,0 +1,5 @@
+public interface Mobile
+{
+    public String getBrand();
+    public String getLanguage();
+}
