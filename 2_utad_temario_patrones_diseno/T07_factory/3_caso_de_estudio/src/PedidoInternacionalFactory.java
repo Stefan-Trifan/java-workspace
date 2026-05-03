@@ -1,15 +1,12 @@
 public class PedidoInternacionalFactory extends PedidoFactory
 {
-    // ------------------------------- Atributos
-    // --------------------------- Constructores
-    // --------------------------------- Getters
-    // --------------------------------- Setters
     // ------------------------ Métodos Públicos
+    @Override
     public Pedido crearPedido()
     {
-        Pedido pedido = new PedidoInternacional();
-        pedido.setEstado(new EstadoCreado());
-        return pedido;
+        Pedido p = new PedidoInternacional();
+        inicializarEstado(p);
+        p.setDiasEntregaBase(10);
+        return p;
     }
-    // ------------------------ Métodos Privados
 }

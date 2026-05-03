@@ -1,15 +1,12 @@
 public class PedidoExpressFactory extends PedidoFactory
 {
-    // ------------------------------- Atributos
-    // --------------------------- Constructores
-    // --------------------------------- Getters
-    // --------------------------------- Setters
     // ------------------------ Métodos Públicos
+    @Override
     public Pedido crearPedido()
     {
-        Pedido pedido = new PedidoExpress();
-        pedido.setEstado(new EstadoCreado());
-        return pedido;
+        Pedido p = new PedidoExpress();
+        inicializarEstado(p);
+        p.setDiasEntregaBase(2);
+        return p;
     }
-    // ------------------------ Métodos Privados
 }

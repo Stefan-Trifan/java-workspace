@@ -1,15 +1,12 @@
 public class PedidoNormalFactory extends PedidoFactory
 {
-    // ------------------------------- Atributos
-    // --------------------------- Constructores
-    // --------------------------------- Getters
-    // --------------------------------- Setters
     // ------------------------ Métodos Públicos
+    @Override
     public Pedido crearPedido()
     {
-        Pedido pedido = new PedidoNormal();
-        pedido.setEstado(new EstadoCreado());
-        return pedido;
+        Pedido p = new PedidoNormal();
+        inicializarEstado(p);
+        p.setDiasEntregaBase(5);
+        return p;
     }
-    // ------------------------ Métodos Privados
 }
