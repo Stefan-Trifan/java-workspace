@@ -6,6 +6,16 @@ public abstract class BebidaDecorator implements Bebida
     {
         this.bebida = bebida;
     }
+
+    public String getDescripcion()
+    {
+        return bebida.getDescripcion();
+    }
+
+    public double getPrecio()
+    {
+        return bebida.getPrecio();
+    }
 }
 
 // Decorador Abstracto
