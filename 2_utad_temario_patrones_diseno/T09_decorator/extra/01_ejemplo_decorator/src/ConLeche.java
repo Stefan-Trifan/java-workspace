@@ -1,6 +1,6 @@
-public class Azucar extends BebidaDecorator
+public class ConLeche extends BebidaDecorator
 {
-    public Azucar(Bebida bebida)
+    public ConLeche(Bebida bebida)
     {
         super(bebida);
     }
@@ -8,13 +8,13 @@ public class Azucar extends BebidaDecorator
     @Override
     public String getDescripcion()
     {
-        return bebida.getDescripcion() + " + Azucar";
+        return bebida.getDescripcion() + " + Leche";
     }
 
     @Override
     public double getPrecio()
     {
-        return bebida.getPrecio() + 0.10;
+        return bebida.getPrecio() + 0.30;
     }
 }
 
