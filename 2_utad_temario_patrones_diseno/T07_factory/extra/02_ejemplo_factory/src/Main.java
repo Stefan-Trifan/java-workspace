@@ -4,8 +4,8 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        MalwareCreator Kreator = new RansomwareCreator();
-        Malware malware = Kreator.createMalware();
+        MalwareCreator fabrik = new RansomwareCreator();
+        Malware malware = fabrik.createMalware();
 
         malware.ejecutar();
 
