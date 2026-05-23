@@ -4,22 +4,13 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        GUIFactory factory;
+        GUIFactory factory = new MacFactory();
 
-        String sistema = "windows";
+        Button button = factory.crearButton();
+        Checkbox checkbox = factory.crearCheckbox();
 
-        if (sistema.equals("windows"))
-        {
-            factory = new WindowsFactory();
-        }
-        else
-        {
-            factory = new MacFactory();
-        }
-
-        App app = new App(factory);
-
-        app.render();
+        button.render();
+        checkbox.render();
 
         System.out.println("\n_______________________END\n");
     }
