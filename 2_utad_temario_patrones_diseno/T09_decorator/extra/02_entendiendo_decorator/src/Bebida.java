@@ -1,4 +1,6 @@
-public interface Bebida {
+public interface Bebida
+{
     String getDescripcion();
+
     double getPrecio();
 }

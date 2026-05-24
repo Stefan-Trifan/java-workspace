@@ -5,12 +5,14 @@ public class ConAzucar extends CafeDecorator
     {
         super(bebida);
     }
+
     // ------------------------ Métodos Públicos
     @Override
     public String getDescripcion()
     {
-        return super.getDescripcion() +  " + Azucar";
+        return super.getDescripcion() + " + Azucar";
     }
+
     @Override
     public double getPrecio()
     {

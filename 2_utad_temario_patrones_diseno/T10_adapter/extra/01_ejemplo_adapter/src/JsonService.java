@@ -1,4 +1,4 @@
-// 1. INTERFAZ QUE ESPERA EL CLIENTE (Target)
+// INTERFAZ QUE ESPERA EL CLIENTE (Target)
 interface JsonService
 {
     String getDataAsJson();

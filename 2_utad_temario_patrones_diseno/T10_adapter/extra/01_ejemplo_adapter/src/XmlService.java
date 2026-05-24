@@ -1,13 +1,18 @@
-// 2. CLASE EXISTENTE (Adaptee)
-class XmlService {
-
+// CLASE EXISTENTE (Adaptee)
+class XmlService
+{
+    // ------------------------------- Atributos
     private String data;
 
-    public XmlService(String data) {
+    // --------------------------- Constructores
+    public XmlService(String data)
+    {
         this.data = data;
     }
 
-    public String getDataAsXml() {
+    // ------------------------ Métodos Públicos
+    public String getDataAsXml()
+    {
         return "<data>" + data + "</data>";
     }
 }

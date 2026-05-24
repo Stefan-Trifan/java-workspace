@@ -4,9 +4,7 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        XmlService xmlService = new XmlService(
-            "Esto ya no está hardcodeado");
-
+        XmlService xmlService = new XmlService("Mi Texto");
         System.out.println(xmlService.getDataAsXml());
 
         // Usamos el adapter

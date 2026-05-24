@@ -5,6 +5,7 @@ public class Cafe implements Bebida
     {
         return "Cafe";
     }
+
     public double getPrecio()
     {
         return 1.50;
