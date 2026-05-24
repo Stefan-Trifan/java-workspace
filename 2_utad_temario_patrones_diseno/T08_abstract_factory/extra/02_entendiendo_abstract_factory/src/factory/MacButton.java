@@ -1,6 +1,6 @@
 package factory;
 
-class MacButton implements GUIelement
+class MacButton implements Button
 {
     public void render()
     {

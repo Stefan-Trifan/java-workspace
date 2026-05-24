@@ -1,5 +1,6 @@
 import factory.Factory;
-import factory.GUIelement;
+import factory.Button;
+import factory.Checkbox;
 import factory.MacFactory;
 import factory.WindowsFactory;
 
@@ -9,10 +10,10 @@ public class Main
     {
         System.out.println("\n_______________________START\n");
 
-        Factory miFactory = new WindowsFactory();
+        Factory miFactory = new MacFactory();
 
-        GUIelement boton = miFactory.fabricarBoton();
-        GUIelement checkbox = miFactory.fabricarCheckbox();
+        Button boton = miFactory.fabricarBoton();
+        Checkbox checkbox = miFactory.fabricarCheckbox();
 
         boton.render();
         checkbox.render();

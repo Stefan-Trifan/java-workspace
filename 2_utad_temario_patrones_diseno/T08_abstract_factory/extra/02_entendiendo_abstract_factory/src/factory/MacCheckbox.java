@@ -1,6 +1,6 @@
 package factory;
 
-class MacCheckbox implements GUIelement
+class MacCheckbox implements Checkbox
 {
     public void render()
     {

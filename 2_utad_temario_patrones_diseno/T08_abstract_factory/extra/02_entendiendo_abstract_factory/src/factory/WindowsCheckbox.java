@@ -1,6 +1,6 @@
 package factory;
 
-class WindowsCheckbox implements GUIelement
+class WindowsCheckbox implements Checkbox
 {
     public void render()
     {

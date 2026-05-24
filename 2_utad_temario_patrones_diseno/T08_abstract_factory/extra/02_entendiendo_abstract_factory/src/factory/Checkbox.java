@@ -1,6 +1,6 @@
 package factory;
 
-public interface GUIelement
+public interface Checkbox
 {
     public void render();
 }

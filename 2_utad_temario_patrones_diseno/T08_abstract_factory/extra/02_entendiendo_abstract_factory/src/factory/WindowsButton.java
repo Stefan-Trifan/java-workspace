@@ -1,6 +1,6 @@
 package factory;
 
-class WindowsButton implements GUIelement
+class WindowsButton implements Button
 {
     public void render()
     {

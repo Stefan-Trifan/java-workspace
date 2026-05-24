@@ -1,12 +1,13 @@
 package factory;
-public class WindowsFactory extends Factory
+
+public class WindowsFactory implements Factory
 {
-    public GUIelement fabricarBoton()
+    public Button fabricarBoton()
     {
         return new WindowsButton();
     }
 
-    public GUIelement fabricarCheckbox()
+    public Checkbox fabricarCheckbox()
     {
         return new WindowsCheckbox();
     }

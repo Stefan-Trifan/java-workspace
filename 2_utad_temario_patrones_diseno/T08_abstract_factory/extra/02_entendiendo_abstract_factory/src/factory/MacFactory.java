@@ -1,12 +1,13 @@
 package factory;
-public class MacFactory extends Factory
+
+public class MacFactory implements Factory
 {
-    public GUIelement fabricarBoton()
+    public Button fabricarBoton()
     {
         return new MacButton();
     }
 
-    public GUIelement fabricarCheckbox()
+    public Checkbox fabricarCheckbox()
     {
         return new MacCheckbox();
     }
